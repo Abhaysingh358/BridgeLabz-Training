@@ -67,6 +67,13 @@ During this training, I am working on multiple technologies to strengthen my fun
 
 ---
 
+### Day4 (19 Dec 2025)
+- Learned **Data types**  and **Operators** 
+- Revised CRL ,MSIL 
+- Practiced Questions on **Data types**  and **Operators** 
+- Why **Main** function is Public ?
+- 
+
 ## 📎 Notes
 This repository is maintained for **learning and training purposes**.  
 More sessions, assignments, and improvements will be added as the training progresses.
