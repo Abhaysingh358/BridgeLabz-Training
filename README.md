@@ -72,7 +72,20 @@ During this training, I am working on multiple technologies to strengthen my fun
 - Revised CRL ,MSIL 
 - Practiced Questions on **Data types**  and **Operators** 
 - Why **Main** function is Public ?
-- 
+
+**Practiced**
+- C# Comments
+- C# Basic Data Types
+- C# Variables
+- Arithmetic Operators
+- Operator Precedence
+- Type Conversion
+- Taking User Input in Programs
+
+--- 
+- R&D for Access Modifires ->  public ,private , protected , internal , and protected Inetrnal , private protected
+- uploaded .exe file with source file also 
+
 
 ## 📎 Notes
 This repository is maintained for **learning and training purposes**.  
