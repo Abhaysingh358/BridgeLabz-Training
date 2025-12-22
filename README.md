@@ -101,6 +101,55 @@ During this training, I am working on multiple technologies to strengthen my fun
 - R&d on Modifiers ,  Learned C# Elements
 - Demonstartion of AccessModifiers code pushed 
 
+### Day6 (21 Dec 2025)
+- sunday ,  so that  no work has been done
+
+### Day7 (22 Dec 2025)
+**Control Flows**
+
+Flow of Programming:
+- Understanding how a program moves from Input → Process → Output.
+
+Program Constructs:
+- Sequence: Code executes line by line.
+- Selection: if-else and switch-case statements for decision-making.
+- Iteration: for loop, while loop, and do-while loop for repetition.
+
+Control Flow Practice:
+- Practiced if-else, switch-case, while loop, for loop, and do-while loop.
+- Learned where each loop is used.
+
+Loop Usage Guide:
+- Use for loop when number of iterations is known.
+- Use while loop when number of iterations is unknown.
+- Use do-while loop when the loop must run at least once.
+
+Creating Projects in Visual Studio:
+- Learned how to create new projects.
+- Explored Solution Explorer.
+- Understood how to run and debug C# programs.
+
+Top-Level Code:
+- Top-level statements allow writing code without a class and Main method.
+- Compiler generates an internal class automatically, so it becomes internal by default.
+- Important: Do not click "Do not use top-level statements" because it changes program structure.
+
+Git Branch and Code Cleanliness:
+- Keep your branch clean by creating your project in a separate folder first.
+- Then move this folder into the local GitHub-connected directory.
+- Helps maintain clean repo structure and better workflow.
+
+
+<!-- - Flow of Programming 
+- program Construct (Sequence , Selection , Iteration)
+- if-else ,  Switch case , While loop , For loop 
+- practiced on control flows 
+- learned where to use for loop , while loop and do while loop
+- also learned how create a project in visual studio
+- what is top level code and why it is by default internal
+- do not click on do not make top level code 
+- how to keep your branch and code clean and make a seperate folder to this project then paste to the local folder where the system connected to git hub repo -->
+
 ## 📎 Notes
 This repository is maintained for **learning and training purposes**.  
 More sessions, assignments, and improvements will be added as the training progresses.
