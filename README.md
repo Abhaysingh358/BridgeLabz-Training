@@ -101,10 +101,9 @@ During this training, I am working on multiple technologies to strengthen my fun
 - R&d on Modifiers ,  Learned C# Elements
 - Demonstartion of AccessModifiers code pushed 
 
-### Day6 (21 Dec 2025)
-- sunday ,  so that  no work has been done
+---
 
-### Day7 (22 Dec 2025)
+### Day6 (22 Dec 2025)
 **Control Flows**
 
 Flow of Programming:
@@ -139,16 +138,98 @@ Git Branch and Code Cleanliness:
 - Then move this folder into the local GitHub-connected directory.
 - Helps maintain clean repo structure and better workflow.
 
+---
+### Day 8(23 Dec 2025)
+### Array Lab Practices 
 
-<!-- - Flow of Programming 
-- program Construct (Sequence , Selection , Iteration)
-- if-else ,  Switch case , While loop , For loop 
-- practiced on control flows 
-- learned where to use for loop , while loop and do while loop
-- also learned how create a project in visual studio
-- what is top level code and why it is by default internal
-- do not click on do not make top level code 
-- how to keep your branch and code clean and make a seperate folder to this project then paste to the local folder where the system connected to git hub repo -->
+**Topics Covered**
+- C# Arrays
+- Creating Arrays
+- Accessing Array Elements
+- Loop-Based Access Using for Loop
+- Modifying Array Values
+- Using Array Length Property
+- Multi-Dimensional Arrays
+- 2D Matrix Operations
+- Using Console.Error.WriteLine() and Environment.Exit()
+
+**Approach Used**
+- All values stored as variables
+- Avoided hard-coding wherever possible
+- Meaningful naming conventions
+- Proper class and program naming
+- Proper indentation throughout
+- Comments for each logical block
+- Full input validation for user entries
+- Array Length used for safe looping
+
+**Learning Outcome**
+- Understanding 1D & 2D arrays
+- Confident array creation, access, and modification
+- Safe error handling and termination
+
+---
+### Day 9(24 Dec 2025)
+### .NET Methods Lab Practices 
+
+**Programming Concepts Needed**
+- User-Defined Methods
+- Using Methods Multiple Times
+- Making Methods More Dynamic
+- Recursive Methods
+- Static Methods in C#
+- .NET Standard Library Methods
+- System.Math Class in C#
+
+
+**Learning Outcome**
+- Understanding method creation and usage in C#
+- Ability to write reusable and dynamic methods
+- Working with recursion and static methods
+- Using built-in .NET library methods effectively
+
+---
+### Day 10(26 dec 2025)
+### C# String Lab Practices 
+
+**Topics Covered**
+- C# Strings
+- Creating Strings
+- Using "\\" Escape Sequence
+- Taking String Input
+- String Arrays
+- Passing Strings as Method Parameters
+- String Class Built-In Methods
+- ASCII Character Codes
+- C# Exceptions and Exception Hierarchy
+- Exception Types (Checked & Unchecked)
+- System.Exception and Derived Exception Types
+- Handling Checked Exceptions
+- Extras Built-in functions
+
+**Approach Used**
+- All values stored in variables (fixed values, user inputs, results)
+- Code written using methods instead of placing logic in Main()
+- Meaningful and consistent naming conventions for variables and methods
+- Clear and descriptive program and class names
+- Handling both checked and unchecked exceptions where applicable
+- Method names reflect action, input handling, and result generation
+
+**Learning Outcome**
+- Understanding string creation, input handling, and manipulation
+- Ability to work with string arrays and string-based methods
+- Using built-in String class features effectively
+- Understanding ASCII values and character operations
+- Gaining foundational knowledge of C# exceptions and error handling
+
+---
+### Day 11 (29 Dec 2025) - Week 2
+**Object Oriented Programming(OOPS)**
+- Basics Of Procedural Programming
+- Scenerio Based Questions
+- class and objects reading
+
+
 
 ## 📎 Notes
 This repository is maintained for **learning and training purposes**.  
