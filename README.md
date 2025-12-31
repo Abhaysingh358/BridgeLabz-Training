@@ -229,7 +229,31 @@ Git Branch and Code Cleanliness:
 - Scenerio Based Questions
 - class and objects reading
 
+### Day 12(30 Dec 2025)
+--- 
 
+## C# Basic,senario based questions
+
+
+### 🔹 Topics Covered
+- senario based question on Library management system and Edu Quiz 
+- senario based question on arrays and methods
+- using denuggers to solve the nugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# contorol flow**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in Strings and functions  and array
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
 
 ## 📎 Notes
 This repository is maintained for **learning and training purposes**.  
