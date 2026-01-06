@@ -21,7 +21,23 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.BirdSanctu
         {
             for (int i = 0; i < Sanctury.Length; i++)
             {
-                Console.WriteLine(Sanctury[i]);
+               
+                if (Sanctury[i] is IFlyable f && Sanctury[i] is ISwimmable s)
+                {
+                    f.Fly();
+                    s.Swim();
+                }
+
+                else if (Sanctury[i] is IFlyable flyable)
+                {
+                    flyable.Fly();
+                }
+
+                else if (Sanctury[i] is ISwimmable swim)
+                {
+                    swim.Swim();
+                }
+                 Console.WriteLine(Sanctury[i]);
                 Console.WriteLine();
             }
 
