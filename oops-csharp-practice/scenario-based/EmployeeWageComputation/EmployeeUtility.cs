@@ -14,6 +14,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
         private const int FullDayHour = 8;
 
         private const int PartTimeHour = 8;
+
+        private const int WorkingDaysPerMonth = 20;
         public bool IsPresent()
         {
 
@@ -36,6 +38,18 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
                 return WagePerHour * PartTimeHour;
             }
             return 0;
+        }
+
+        public int CalculateMonthlyWage()
+        {
+            int monthlyWage = 0;
+
+            for (int day = 1; day <= WorkingDaysPerMonth; day++)
+            {
+                monthlyWage += CalculateDailyWage();
+            }
+
+            return monthlyWage;
         }
     }
 }

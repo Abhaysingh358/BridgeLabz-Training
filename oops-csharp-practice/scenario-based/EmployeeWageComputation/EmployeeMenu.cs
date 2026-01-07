@@ -24,6 +24,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
                 Console.WriteLine("1. Check Employee Attendance (UC-1)");
                 Console.WriteLine("2. Calculate Daily Employee Wage (UC-2)");
                 Console.WriteLine("3. Calculate Part-Time Employee Wage (UC-3)");
+                Console.WriteLine("4. Calculate Monthly Employee Wage (UC-5)");
                 Console.WriteLine("0. Exit");
 
                 Console.Write("Enter choice: ");
@@ -58,7 +59,9 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
                         Console.WriteLine($"Daily Wage (Part-Time) : {employeeUtil.CalculatePartTimeWage()}" );
                         break;
 
-                      
+                    case 4:
+                        Console.WriteLine($"Monthly Wage (20 Days) : {employeeUtil.CalculateMonthlyWage()}");
+                        break;
 
                     case 0:
                         Console.WriteLine("Exiting...");

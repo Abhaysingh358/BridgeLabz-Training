@@ -8,10 +8,12 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
 {
     internal interface IEmployee
     {
-        bool IsPresent();
+        bool IsPresent();//uc1
 
-        int CalculateDailyWage();
+        int CalculateDailyWage();//uc2
 
-        int CalculatePartTimeWage();
+        int CalculatePartTimeWage();//uc3
+
+        int CalculateMonthlyWage(); // uc5
     }
 }
