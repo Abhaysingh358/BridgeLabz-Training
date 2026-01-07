@@ -16,6 +16,9 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
         private const int PartTimeHour = 8;
 
         private const int WorkingDaysPerMonth = 20;
+
+        private const int MaxWorkingDays = 20;
+        private const int MaxWorkHours = 100;
         public bool IsPresent()
         {
 
@@ -50,6 +53,35 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
             }
 
             return monthlyWage;
+        }
+
+        public int CalculateMonthlyWageWithCondition()
+        {
+            int totalWorkingDays = 0;
+            int totalWorkingHours = 0;
+            int totalWage = 0;
+
+            while (totalWorkingDays < MaxWorkingDays &&
+                   totalWorkingHours < MaxWorkHours)
+            {
+                totalWorkingDays++;
+
+                if (IsPresent())
+                {
+                    // ensure hours don't exceed max
+                    int hoursWorkedToday = FullDayHour;
+
+                    if (totalWorkingHours + hoursWorkedToday > MaxWorkHours)
+                    {
+                        hoursWorkedToday = MaxWorkHours - totalWorkingHours;
+                    }
+
+                    totalWorkingHours += hoursWorkedToday;
+                    totalWage += hoursWorkedToday * WagePerHour;
+                }
+            }
+
+            return totalWage;
         }
     }
 }
