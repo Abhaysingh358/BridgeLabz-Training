@@ -1,29 +1,60 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWageComputation
+﻿internal class Employee
 {
-    internal class Employee
+    // private data members
+    private int EmployeeID;
+    private string EmployeeName;
+    private long EmployeePhone;
+    private string EmailId;
+
+    // getter and setter for employee id
+    public int GetEmployeeID()
     {
-        private int EmployeeID { get; set; }
-        private string EmployeeName { get; set; }
+        return EmployeeID;
+    }
 
-        private int EmployeeSalary { get; set; }
+    public void SetEmployeeID(int employeeID)
+    {
+        EmployeeID = employeeID;
+    }
 
-        private long EmployeePhone {  get; set; }
-        private string EmailId { get; set; }
+    // getter and setter for employee name
+    public string GetEmployeeName()
+    {
+        return EmployeeName;
+    }
 
+    public void SetEmployeeName(string employeeName)
+    {
+        EmployeeName = employeeName;
+    }
 
-        public override string ToString()
-        {
-            return $"EmployeeId : {EmployeeID} , Employee Name : {EmployeeName} ," +
-                $"\nEmployee Salary : {EmployeeSalary}  , Phone No. : {EmployeePhone}" +
-                $"\nEmployee EmailId : {EmailId}";
-        }
+    // getter and setter for phone number
+    public long GetEmployeePhone()
+    {
+        return EmployeePhone;
+    }
 
+    public void SetEmployeePhone(long employeePhone)
+    {
+        EmployeePhone = employeePhone;
+    }
 
+    // getter and setter for email id
+    public string GetEmailId()
+    {
+        return EmailId;
+    }
+
+    public void SetEmailId(string emailId)
+    {
+        EmailId = emailId;
+    }
+
+    // display employee details
+    public override string ToString()
+    {
+        return $"EmployeeId : {EmployeeID}, Employee Name : {EmployeeName}" +
+               $"\nPhone No. : {EmployeePhone}" +
+               $"\nEmail Id : {EmailId}";
     }
 }
