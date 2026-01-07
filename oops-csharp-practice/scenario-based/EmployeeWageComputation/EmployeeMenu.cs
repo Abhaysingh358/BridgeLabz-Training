@@ -19,6 +19,15 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
 
         public void ShowMenu()
         {
+            Console.WriteLine("Welcome to Employee Wage Computation Program");
+            Employee emp = new Employee();
+            emp.SetEmployeeID(1);
+            emp.SetEmployeeName("Pushp");
+            emp.SetEmployeePhone(565165);
+            emp.SetEmailId("pushp@gmail.com");
+
+
+            Console.WriteLine(emp);
             while (true)
             {
                 Console.WriteLine("\n---- Employee Wage Computation ----");
