@@ -11,5 +11,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
         bool IsPresent();
 
         int CalculateDailyWage();
+
+        int CalculatePartTimeWage();
     }
 }

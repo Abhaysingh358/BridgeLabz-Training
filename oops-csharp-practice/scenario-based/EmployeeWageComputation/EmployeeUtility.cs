@@ -12,6 +12,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
 
         private const int WagePerHour = 20;
         private const int FullDayHour = 8;
+
+        private const int PartTimeHour = 8;
         public bool IsPresent()
         {
 
@@ -23,6 +25,15 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
             if (IsPresent())
             {
                 return WagePerHour * FullDayHour;
+            }
+            return 0;
+        }
+
+        public int CalculatePartTimeWage()
+        {
+            if (IsPresent())
+            {
+                return WagePerHour * PartTimeHour;
             }
             return 0;
         }
