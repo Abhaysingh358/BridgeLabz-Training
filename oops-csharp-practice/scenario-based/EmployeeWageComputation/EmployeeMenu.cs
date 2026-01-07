@@ -34,6 +34,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
                     continue;
                 }
 
+                // using switch statement as instructed in uc 4
                 switch (choice)
                 {
                     case 1:
@@ -56,6 +57,9 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.EmployeeWa
                     case 3:
                         Console.WriteLine($"Daily Wage (Part-Time) : {employeeUtil.CalculatePartTimeWage()}" );
                         break;
+
+                      
+
                     case 0:
                         Console.WriteLine("Exiting...");
                         return;
