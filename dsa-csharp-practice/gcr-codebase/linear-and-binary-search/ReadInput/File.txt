@@ -1,0 +1,2 @@
+this is a text file . where user can write to the file. 
+this is created for using and practicing StreamReader And StreamWriter

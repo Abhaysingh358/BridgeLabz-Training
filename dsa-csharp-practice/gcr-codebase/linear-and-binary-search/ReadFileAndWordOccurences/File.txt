@@ -1,0 +1,6 @@
+this is a txt file.
+it is created for count the occurences of a specific word
+hi hi hi hi 
+hello hello hello 
+world world world
+
