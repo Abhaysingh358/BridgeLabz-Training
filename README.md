@@ -1,35 +1,51 @@
 # BridgeLabz-Training
 
-## 📌 Description
-This repository is part of the training program provided by **BridgeLabz** in collaboration with  **Capgemini**.  
+## Description
+This repository is part of the training program provided by BridgeLabz in collaboration with Capgemini.  
 During this training, I am working on multiple technologies to strengthen my fundamentals, understand real-world development workflows, and improve problem-solving skills through hands-on practice.
 
 ---
 
-## 🛠 Tech Stack
-- **Languages:** C#, Java  
-- **Platform / Framework:** .NET  
-- **Tools:** Git, GitHub  
-- **Environment:** Git Bash, VS Code  
+## Tech Stack
+- Languages: C#, Java  
+- Platform / Framework: .NET  
+- Tools: Git, GitHub  
+- Environment: Git Bash, VS Code, Visual Studio  
 
 ---
 
-## 📅 Training Breakdown
+## Training Breakdown
 
 ### Day 1 (16 Dec 2025)
 - Kick-off session
 - Pre-talk and guidance for upcoming sessions
 - Introduction to training flow and expectations
+- Overview of BridgeLabz program structure and roadmap
 - Basic Git commands overview
+
+Learning Outcome
+- Understood training journey and daily discipline
+- Familiarity with expectations and deliverables
 
 ---
 
 ### Day 2 (17 Dec 2025)
 - Guidance for upcoming sessions
 - Company guidelines and training guidelines
+- Introduction to Git and GitHub
+- Importance of version control in software development
+- Repository structure best practices
+- Practiced basic Git commands:
+  - git init, git clone
+  - git status, git add, git commit
+  - git push, git pull
+  - Branching basics
 - 10 basic Java assignment questions
 - 5 LeetCode problems solved using Java
-- Practice of basic Git commands
+
+Learning Outcome
+- Strong foundation in Git & GitHub
+- Prepared for structured daily code management
 
 ---
 
@@ -40,40 +56,31 @@ During this training, I am working on multiple technologies to strengthen my fun
   - BCL (Base Class Library)
   - IL and MSIL
   - Compiler vs Interpreter
+  - Low-level vs High-level languages
   - History of C#
-- Worked with `.NET`:
-  - `dotnet run`
-  - `csc.exe`
+  - Static keyword
+- Worked with .NET:
+  - dotnet run
+  - csc.exe
   - Installed .NET versions 8 and 10
 - Repository restructuring:
-  - Deleted `core-java-practice`
-  - Created a new repository `core-csharp-practice`
+  - Deleted core-java-practice
+  - Created a new repository core-csharp-practice
 - Solved 10 basic operations/programming questions in C#
 
----
-
-## 🎯 Learning Outcomes
-- Learned **.NET framework basics** and **C# fundamentals**
-- Understood internal working of .NET (CLR, IL, MSIL)
-- Practiced **basic Git commands** (including `git fetch`)
-- Improved problem-solving ability through Java and C# exercises
-- Gained hands-on experience with real training workflows
+Learning Outcome
+- Built a strong foundation in C# and .NET basics
+- Understood internal execution of .NET applications
 
 ---
 
-## 📂 Branching Strategy
-- `main` → stable base branch
-- `core-csharp-practice` → C# practice and learning code
+### Day 4 (19 Dec 2025)
+- Learned Data Types and Operators
+- Revised CLR, MSIL
+- Practiced questions on Data Types and Operators
+- Why Main() function is public?
 
----
-
-### Day4 (19 Dec 2025)
-- Learned **Data types**  and **Operators** 
-- Revised CRL ,MSIL 
-- Practiced Questions on **Data types**  and **Operators** 
-- Why **Main** function is Public ?
-
-**Practiced**
+Practiced
 - C# Comments
 - C# Basic Data Types
 - C# Variables
@@ -82,184 +89,390 @@ During this training, I am working on multiple technologies to strengthen my fun
 - Type Conversion
 - Taking User Input in Programs
 
---- 
-- R&D for Access Modifires ->  public ,private , protected , internal , and protected Inetrnal , private protected
-- uploaded .exe file with source file also 
+Extra R&D
+- Access Modifiers:
+  - public, private, protected, internal
+  - protected internal, private protected
+- Uploaded .exe file with source file
 
-### Day5(20 Dec 2025)
-**Topics Covered**
-- Revision of Acess Modifiers
+Learning Outcome
+- Better understanding of runtime concepts (CLR/MSIL)
+- Improved confidence in operator-based problems
+
+---
+
+### Day 5 (20 Dec 2025)
+Topics Covered
+- Revision of Access Modifiers
 - Revision of C# Elements
+- Operator problem solving practice
 
----
-**Practiced**
+Practiced
 - Access Modifiers
+- Operator based programming questions
+
+Learning Outcome
+- R&D on modifiers and C# elements
+- Learned encapsulation and visibility control in code
 
 ---
-**Outcomes**
 
-- R&d on Modifiers ,  Learned C# Elements
-- Demonstartion of AccessModifiers code pushed 
+### Day 6 (22 Dec 2025)
+Control Flows
+
+Flow of Programming
+- Understanding how a program moves from Input → Process → Output
+
+Program Constructs
+- Sequence: Code executes line by line
+- Selection: if-else and switch-case statements for decision-making
+- Iteration: for loop, while loop, and do-while loop for repetition
+
+Control Flow Practice
+- Practiced if-else, switch-case, while loop, for loop, do-while loop, foreach
+- Learned where each loop is used
+
+Loop Usage Guide
+- Use for loop when iterations are known
+- Use while loop when iterations are unknown
+- Use do-while loop when loop must run at least once
+
+Creating Projects in Visual Studio
+- Learned how to create new projects
+- Explored Solution Explorer
+- Understood how to run and debug C# programs
+
+Top-Level Code
+- Compiler generates an internal class automatically, so it becomes internal by default
+
+Git Branch and Code Cleanliness
+- Keep branch clean:
+  - Create project in separate folder first
+  - Move it to Git repo folder later
+
+Learning Outcome
+- Strong control flow understanding
+- Better debugging skill in Visual Studio
+- Improved clean repo practice
+
+---
+
+### Day 7 (23 Dec 2025)
+C# Control Flow & Arrays
+
+Topics Covered
+- Control Flow revision and practice
+- Arrays in C#:
+  - Different ways to create arrays
+  - Access and update array values
+  - Using Length
+  - 2D arrays (matrix)
+- Used Environment.Exit(0) and Console.Error.WriteLine()
+
+Learning Outcome
+- Strengthened logical thinking using loops and arrays
+- Improved confidence in data collection handling
 
 ---
 
-### Day6 (22 Dec 2025)
-**Control Flows**
+### Day 8 (24 Dec 2025)
+Array and Methods Lab Practices
 
-Flow of Programming:
-- Understanding how a program moves from Input → Process → Output.
+Topics Covered
+- Arrays (Advanced Practice)
+- Multi-Dimensional arrays
+- 2D Matrix operations
+- Methods in C#:
+  - Static vs non-static methods
+  - Object creation for non-static methods
+  - Recursive methods
+  - Base case and recursive case
+- Used Environment.Exit(0) for validation
 
-Program Constructs:
-- Sequence: Code executes line by line.
-- Selection: if-else and switch-case statements for decision-making.
-- Iteration: for loop, while loop, and do-while loop for repetition.
-
-Control Flow Practice:
-- Practiced if-else, switch-case, while loop, for loop, and do-while loop.
-- Learned where each loop is used.
-
-Loop Usage Guide:
-- Use for loop when number of iterations is known.
-- Use while loop when number of iterations is unknown.
-- Use do-while loop when the loop must run at least once.
-
-Creating Projects in Visual Studio:
-- Learned how to create new projects.
-- Explored Solution Explorer.
-- Understood how to run and debug C# programs.
-
-Top-Level Code:
-- Top-level statements allow writing code without a class and Main method.
-- Compiler generates an internal class automatically, so it becomes internal by default.
-- Important: Do not click "Do not use top-level statements" because it changes program structure.
-
-Git Branch and Code Cleanliness:
-- Keep your branch clean by creating your project in a separate folder first.
-- Then move this folder into the local GitHub-connected directory.
-- Helps maintain clean repo structure and better workflow.
+Learning Outcome
+- Clear understanding of arrays and recursion
+- Improved code modularity using methods
 
 ---
-### Day 8(23 Dec 2025)
-### Array Lab Practices 
 
-**Topics Covered**
-- C# Arrays
-- Creating Arrays
-- Accessing Array Elements
-- Loop-Based Access Using for Loop
-- Modifying Array Values
-- Using Array Length Property
-- Multi-Dimensional Arrays
-- 2D Matrix Operations
-- Using Console.Error.WriteLine() and Environment.Exit()
+### Day 9 (26 Dec 2025)
+C# Strings and Built-in Functions
 
-**Approach Used**
-- All values stored as variables
-- Avoided hard-coding wherever possible
-- Meaningful naming conventions
-- Proper class and program naming
-- Proper indentation throughout
-- Comments for each logical block
-- Full input validation for user entries
-- Array Length used for safe looping
-
-**Learning Outcome**
-- Understanding 1D & 2D arrays
-- Confident array creation, access, and modification
-- Safe error handling and termination
-
----
-### Day 9(24 Dec 2025)
-### .NET Methods Lab Practices 
-
-**Programming Concepts Needed**
-- User-Defined Methods
-- Using Methods Multiple Times
-- Making Methods More Dynamic
-- Recursive Methods
-- Static Methods in C#
-- .NET Standard Library Methods
-- System.Math Class in C#
-
-
-**Learning Outcome**
-- Understanding method creation and usage in C#
-- Ability to write reusable and dynamic methods
-- Working with recursion and static methods
-- Using built-in .NET library methods effectively
-
----
-### Day 10(26 dec 2025)
-### C# String Lab Practices 
-
-**Topics Covered**
+Topics Covered
 - C# Strings
-- Creating Strings
-- Using "\\" Escape Sequence
-- Taking String Input
-- String Arrays
-- Passing Strings as Method Parameters
-- String Class Built-In Methods
-- ASCII Character Codes
-- C# Exceptions and Exception Hierarchy
-- Exception Types (Checked & Unchecked)
-- System.Exception and Derived Exception Types
-- Handling Checked Exceptions
-- Extras Built-in functions
+- Escape sequence "\\"
+- String input and string arrays
+- String built-in methods (Substring, Contains, etc.)
+- ASCII character codes
+- Built-in functions:
+  - Random class
+  - Math functions
+  - DateTime and features
 
-**Approach Used**
-- All values stored in variables (fixed values, user inputs, results)
-- Code written using methods instead of placing logic in Main()
-- Meaningful and consistent naming conventions for variables and methods
-- Clear and descriptive program and class names
-- Handling both checked and unchecked exceptions where applicable
-- Method names reflect action, input handling, and result generation
-
-**Learning Outcome**
-- Understanding string creation, input handling, and manipulation
-- Ability to work with string arrays and string-based methods
-- Using built-in String class features effectively
-- Understanding ASCII values and character operations
-- Gaining foundational knowledge of C# exceptions and error handling
+Learning Outcome
+- Strong string handling and built-in library usage
+- Better problem-solving using functions
 
 ---
-### Day 11 (29 Dec 2025) - Week 2
-**Object Oriented Programming(OOPS)**
-- Basics Of Procedural Programming
-- Scenerio Based Questions
-- class and objects reading
 
-### Day 12(30 Dec 2025)
---- 
+### Day 10 (29 Dec 2025)
+C# Scenario-Based Programming
 
-## C# Basic,senario based questions
+Topics Covered
+- Scenario based problems on:
+  - Strings
+  - Arrays and Methods
+- Debugging:
+  - Used debugger to identify and fix bugs
 
+Learning Outcome
+- Improved real-life logic building
+- Enhanced debugging and analysis skills
 
-### 🔹 Topics Covered
-- senario based question on Library management system and Edu Quiz 
-- senario based question on arrays and methods
-- using denuggers to solve the nugs
+---
 
-### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
-- Pushed **core C#  senario based problems * to GitHub repository
+### Day 11 (30 Dec 2025)
+C# Scenario-Based Applications
 
-## 🎯 Learning Outcome
-- Gained experience in Strings and functions  and array
-- real life question and how to approch them
-- more proficient in csharp fucntionality
-- hands on practice in csharp
+Topics Covered
+- Scenario based problems:
+  - Library Management System
+  - Educational Quiz Application
+- Scenario based questions using arrays and methods
 
-## 🚀 Next Steps
-- Continue practicing C# programming concepts
-- Explore concepts in C#
-- Learn more about .NET libraries and real-world projects
+Learning Outcome
+- Experience in building real-world style applications
+- Better coding structure and logical planning
 
-## 📎 Notes
-This repository is maintained for **learning and training purposes**.  
+---
+
+### Day 12 (31 Dec 2025)
+C# Scenario-Based Programming using OOP
+
+Topics Covered
+- Scenario based problems using OOP:
+  - Banking System
+  - Invoice Generator for Freelancers
+- Debugging techniques
+
+Learning Outcome
+- Strong OOP understanding using practical real-world problems
+- Improved OOP design thinking
+
+---
+
+### Day 13 (01 Jan 2026)
+C# Object Modeling and UML Diagrams
+
+Topics Covered
+- Object Modeling concepts
+- Class vs Object
+- UML Diagrams:
+  - Class diagram
+  - Object diagram
+  - Sequence diagram
+- Designed object models for scenarios:
+  - Identified entities, relationships, and interactions
+
+Learning Outcome
+- Learned design-oriented thinking
+- Improved ability to convert scenario into structured OOP design
+
+---
+
+### Day 14 (02 Jan 2026)
+C# Inheritance and Scenario-Based Problem Solving
+
+Topics Covered
+- Inheritance in C#
+- Types of inheritance:
+  - Single-level
+  - Multilevel
+  - Hierarchical
+- Method overriding (virtual, override)
+- Constructor inheritance and base()
+- Polymorphism using inheritance
+- Access modifier impact in inheritance
+
+Scenario-Based Problems
+- Bus Route Distance Tracker
+- Festival Lucky Draw
+
+Learning Outcome
+- Strong understanding of inheritance and runtime polymorphism
+- Better approach to design scalable applications
+
+---
+
+### Day 15 (03 Jan 2026)
+C# Scenario-Based Questions on OOP
+
+Topics Covered
+- Deep OOP revision with mentor guidance
+- Diamond problem and how C# handles it
+- Debugging and bug analysis
+
+Learning Outcome
+- Strong experience in OOP problem solving
+- Better debugging and analysis confidence
+
+---
+
+### Day 16 (04 Jan 2026)
+C# OOP – Encapsulation, Abstraction and Interfaces
+
+Scenario-Based Applications
+- Hospital Patient Management System
+  - Encapsulation using properties
+  - Abstraction using interface IPayable
+  - Inheritance: InPatient, OutPatient
+  - Polymorphism: overriding display methods
+
+- Vehicle Rental Application
+  - Classes: Vehicle, Bike, Car, Truck, Customer
+  - Interface: IRentable
+  - Polymorphism in rent calculation
+
+Learning Outcome
+- Strong understanding of encapsulation, abstraction and interfaces
+- Ability to implement interfaces in real applications
+
+---
+
+### Day 17 (06 Jan 2026)
+C# OOP with Arrays and Polymorphism
+
+Scenario-Based Applications
+- Customer Service Call Log Manager
+  - Stored logs using arrays of objects
+  - Search by keyword using Contains()
+  - Filter using time range
+
+- Bird Sanctuary Management System
+  - Base class Bird
+  - Interfaces: IFlyable, ISwimmable
+  - Derived classes: Eagle, Sparrow, Duck, Penguin, Seagull
+  - Polymorphism using interface checking
+
+Learning Outcome
+- Polymorphism through interfaces and runtime behavior
+- Strong OOP and arrays integration practice
+
+---
+
+### Day 18 (07 Jan 2026)
+C# Collections, LinkedList and Employee Wage Computation
+
+Topics Covered
+- Collection Library
+- LinkedList implementation
+- Employee Wage Computation problem (multiple use-cases)
+
+Concepts Applied
+- OOP design and structured program flow
+- LinkedList storage and dynamic handling
+- Proper naming conventions and maintainable structure
+
+Learning Outcome
+- Strong LinkedList understanding
+- Better real-world modeling using Collections and OOP
+
+---
+
+### Day 19 (08 Jan 2026)
+C# Collections – Stack, Queue and Hashing
+
+Topics Covered
+- Stack (LIFO):
+  - Push, Pop, Peek
+  - Use cases: undo/redo, call stack
+
+- Queue (FIFO):
+  - Enqueue, Dequeue, Peek
+  - Use cases: scheduling, request processing
+
+- Dictionary (HashMap):
+  - key-value pair storage
+  - add/update/remove/search
+
+- Hashing function concepts and collision overview
+
+Learning Outcome
+- Good understanding of Stack and Queue applications
+- Strong hashing and dictionary handling concepts
+
+---
+
+### Day 20 (09 Jan 2026)
+Sorting Algorithms and Advanced Scenario-Based Design
+
+Topics Covered
+- Sorting algorithm introduction
+- Optimization concepts in sorting logic
+- Advanced scenario-based applications using OOP and interfaces
+
+Scenario-Based Applications
+- ATM Dispenser Logic:
+  - Scenario A: Dispense minimum notes for 880
+  - Scenario B: Removed 500 note and updated strategy
+  - Scenario C: fallback logic when exact change not possible
+
+- FitTrack – Fitness Tracker Application:
+  - Interface-based design
+  - Classes: UserProfile, Workout
+  - Interface: ITrackable
+  - Derived workouts: CardioWorkout, StrengthWorkout
+  - Concepts: inheritance, polymorphism, object modeling
+
+Learning Outcome
+- Improved algorithmic thinking
+- Strong interface and OOP design skill
+- Real-world solution approach improved
+
+---
+
+## Learning Outcomes
+- Learned .NET framework basics and C# fundamentals
+- Understood internal working of .NET (CLR, IL, MSIL)
+- Practiced Git commands and workflow
+- Improved problem-solving ability through Java and C# exercises
+- Hands-on experience with:
+  - Arrays
+  - Methods and recursion
+  - Strings
+  - Exception handling
+  - OOP concepts
+  - Collections (Stack, Queue, LinkedList, Dictionary)
+- Gained experience with training workflows:
+  - Repo structuring
+  - Branching strategy
+  - Clean code discipline
+
+---
+
+## Branching Strategy
+- main → stable base branch
+- core-csharp-practice → C# practice and learning code
+
+---
+
+## Next Steps
+- Continue advanced C# programming concepts
+- Explore:
+  - Interfaces vs Abstract classes
+  - Generics and collections deeply
+  - LINQ
+  - File handling
+  - Searching algorithms
+- Start mini-projects using .NET
+
+---
+
+## Notes
+This repository is maintained for learning and training purposes.  
 More sessions, assignments, and improvements will be added as the training progresses.
 
 ---
 
-## 👤 Author
-**Abhay Pratap Singh**
+## Author
+Abhay Pratap Singh
