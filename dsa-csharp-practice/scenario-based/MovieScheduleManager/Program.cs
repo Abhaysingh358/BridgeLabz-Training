@@ -10,7 +10,7 @@ namespace BridgeLabz.gcr_codebase.DSA.scenario_based.MovieScheduleManager
     {
         static void Main(string[] args)
         {
-            Menu m = new Menu();
+            CinemaMenu m = new CinemaMenu();
             m.Start();
         }
     }
