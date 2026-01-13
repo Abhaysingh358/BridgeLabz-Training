@@ -430,8 +430,76 @@ Learning Outcome
 - Real-world solution approach improved
 
 ---
+### Day21(12 jan 2026)
+Topics Covered
+-StringBuilder
+-StringBuffer
+-FileHandLing
+-Linear Search and Binary Search
 
-## Learning Outcomes
+Scenario-BAsed Applications
+- Story 1: Metal Factory Pipe Cutting
+Context: Maximize revenue from cutting metal rods of different sizes and values.
+Scenario A: Given a rod of length 8 and price chart for different lengths, find best
+cuts.
+Scenario B: Add a custom-length order and check impact on revenue.
+Scenario C: Visualize revenue if cut strategy is not optimized.
+
+- Story 2: Custom Furniture Manufacturing
+Context: A carpenter cuts wooden rods for furniture with pricing based on size.
+Scenario A: Determine best cut to maximize earnings for 12ft rod.
+Scenario B: If customer adds a fixed waste constraint, modify logic.
+Scenario C: Suggest cuts for maximizing both revenue and minimal waste.
+
+- LoanBuddy – Loan Approval Automation"
+Story: A fintech startup named FinlyTech is launching a product called LoanBuddy, a web and
+mobile app that automates personal loan approvals for salaried and self-employed applicants.
+LoanBuddy should collect applicant data, verify eligibility, evaluate credit risk, and either
+approve or reject the loan based on custom rules. It also calculates monthly EMIs and provides
+a personalized repayment plan.
+You’re hired as a Java backend developer to design and implement the core loan approval
+engine.
+Requirements:
+- Applicant class: name, creditScore, income, loanAmount.
+-  LoanApplication class with loan type, term, and interest rate.
+- Interface IApprovable with approveLoan() and calculateEMI().
+- Use constructors to support different types of loans (personal, home, auto).
+- Operators for EMI calculation: P × R × (1+R)^N / ((1+R)^N – 1)
+- Encapsulation: keep credit score and internal approval logic private.
+- Inheritance: different loan types (HomeLoan, AutoLoan) extending base class.
+- Polymorphism: EMI calculation logic varies by loan type.
+- Access modifiers to limit loan status changes to internal processes only.
+
+
+### Day22 (13 jan 2026)
+- Algorithm's Runtime Analysis & Big-O Notation
+- understanding developed of following below -->
+1. What is Runtime Analysis?
+2. Understanding Big-O Notation
+3. Time Complexity Analysis
+4. Space Complexity Analysis
+5. Best, Worst, and Average Case Complexities
+6. Practical Guidelines for Optimizing C# Code
+
+*Scenario-Based Questions*
+- CinemaTime – Movie Schedule Manager"
+Story: A cinema manager wants a tool to store and update a list of movie showtimes and titles.
+Users should be able to add, view, and search movies.
+Requirements:
+- Use a List for movie titles and List for showtimes.
+- Method to:
+- addMovie(String title, String time)
+- searchMovie(String keyword) – use String.contains()
+- displayAllMovies()
+- Combine titles and times into a formatted string using .format() or concatenation.
+- Use Exception Handling:
+- Handle IndexOutOfBoundsException for invalid search indices.
+- Throw InvalidTimeFormatException for improperly formatted showtimes
+(e.g., "25:99").
+- Convert list to array when generating printable reports.
+
+
+<!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
 - Understood internal working of .NET (CLR, IL, MSIL)
 - Practiced Git commands and workflow
@@ -446,7 +514,7 @@ Learning Outcome
 - Gained experience with training workflows:
   - Repo structuring
   - Branching strategy
-  - Clean code discipline
+  - Clean code discipline -->
 
 ---
 
@@ -459,11 +527,8 @@ Learning Outcome
 ## Next Steps
 - Continue advanced C# programming concepts
 - Explore:
-  - Interfaces vs Abstract classes
   - Generics and collections deeply
   - LINQ
-  - File handling
-  - Searching algorithms
 - Start mini-projects using .NET
 
 ---
