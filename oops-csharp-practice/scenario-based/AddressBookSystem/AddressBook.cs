@@ -149,6 +149,47 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
         }
 
 
+        // Method to Delete a Contact
+        public void DeleteContact()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No Contact Found");
+                return;
+            }
+
+            Console.WriteLine("Enter First Name to Delete Contact");
+            string name = Console.ReadLine().ToLower();
+
+            for (int i = 0; i < Count; i++)
+            {
+                string savedName = contacts[i].GetFirstName().ToLower();
+
+                if (savedName.Equals(name))
+                {
+                    //if name matched  then use for loop from index j=i and and assign the next index value -
+                    // at previous index
+                    for (int j = i; j < Count - 1; j++)
+                    {
+                        contacts[j] = contacts[j + 1];
+                    }
+
+                    contacts[Count - 1] = null;
+                    Count--;
+
+                    Console.WriteLine("Contact Deleted Successfully!");
+                    return;
+                }
+            }
+
+            Console.WriteLine("Contact Not Found");
+        }
+
+
+
+
+
+
         // Display The Contact
         public void DisplayContact()
         {

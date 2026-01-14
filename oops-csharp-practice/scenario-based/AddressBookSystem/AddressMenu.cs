@@ -20,7 +20,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                     Console.WriteLine("1.Display Contact");
                     Console.WriteLine("2. Add Contact(UC-2)");
                     Console.WriteLine("3.Edit Contact (UC-3)");
-                   
+                    Console.WriteLine("4.Delete Contact (UC-4)");
+
                     Console.WriteLine("0. Exit");
                     
 
@@ -41,7 +42,9 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                             utils.EditContact();
                             break;
 
-                        
+                        case 4 :
+                            utils.DeleteContact();
+                            break;
 
                         case 0:
                             Console.WriteLine("Exit");
