@@ -13,6 +13,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
         private Contact[] contacts = new Contact[50];
         private int Count = 0;
 
+
         // Method to Contacts
         public void AddContact()
         {
@@ -25,10 +26,24 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
             Contact contact = new Contact();
 
             Console.WriteLine("Enter First Name");
-            contact.SetFirstName(Console.ReadLine());
+            string firstName = Console.ReadLine();
 
             Console.WriteLine("Enter Last Name");
-            contact.SetLastName(Console.ReadLine());
+            string lastName = Console.ReadLine();
+
+
+            //uc7 applying in AddContact Sothat no duplicates value will be takein in same address book 
+
+            if (IsDuplicate(firstName, lastName))
+            {
+                Console.WriteLine("Duplicate Contact Found! Cannot Add.");
+                return;
+            }
+            // code end for applying uc7
+
+            contact.SetFirstName(firstName);
+            contact.SetLastName(lastName);
+
 
             Console.WriteLine("Enter Address");
             contact.SetAddress(Console.ReadLine());
@@ -53,6 +68,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
 
             Console.WriteLine("Contact Added Successfully!");
         }
+
 
 
         // method to edit contact and in which i gave choice like what the-
@@ -203,8 +219,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
             } while (choice != 0);
         }
 
-        // Uc6 method to check first and last name is different
-        public bool IsDuplicate(string firstName)
+        // Uc7 method to check first and last name is different
+        public bool IsDuplicate(string firstName , string lastName)
         {
             for (int i = 0; i < Count; i++)
             {
