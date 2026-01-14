@@ -203,6 +203,19 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
             } while (choice != 0);
         }
 
+        // Uc6 method to check first and last name is different
+        public bool IsDuplicate(string firstName)
+        {
+            for (int i = 0; i < Count; i++)
+            {
+                if (contacts[i].GetFirstName().ToLower().Equals(firstName.ToLower()))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
 
 
         // Display The Contact

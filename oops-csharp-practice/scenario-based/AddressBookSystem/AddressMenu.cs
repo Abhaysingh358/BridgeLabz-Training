@@ -6,62 +6,99 @@ using System.Threading.Tasks;
 
 namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBookSystem
 {
-        internal class AddressMenu
+    internal class AddressMenu
+    {
+        private AddressBookSystem system = new AddressBookSystem();
+        private int choice;
+
+        public void ShowMenu()
         {
-            private AddressBook utils = new AddressBook();
-            private int choice;
-            public void ShowMenu()
+            do
             {
-                
-
-                do
-                {
-                    Console.WriteLine("\n-------- Address Book Menu --------");
-                    Console.WriteLine("1.Display Contact");
-                    Console.WriteLine("2. Add Contact(UC-2)");
-                    Console.WriteLine("3.Edit Contact (UC-3)");
-                    Console.WriteLine("4.Delete Contact (UC-4)");
-                    Console.WriteLine("5.Add Multiple Contacts (UC-5)");
-
+                Console.WriteLine("\n-------- Address Book System Menu (UC-6) --------");
+                Console.WriteLine("1. Add AddressBook");
+                Console.WriteLine("2. Select AddressBook");
+                Console.WriteLine("3. Display AddressBooks");
                 Console.WriteLine("0. Exit");
-                    
 
-                    Console.WriteLine("Enter your choice");
-                    choice = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter your choice");
+                choice = int.Parse(Console.ReadLine());
 
-                    switch (choice)
-                    {
-                        case 1:
-                            utils.DisplayContact();
-                            break;
+                switch (choice)
+                {
+                    case 1:
+                        system.AddAddressBook();
+                        break;
 
-                        case 2:
-                            utils.AddContact();
-                            break;
+                    case 2:
+                        AddressBook book = system.SelectAddressBook();
+                        if (book != null)
+                        {
+                            ShowAddressBookMenu(book);
+                        }
+                        break;
 
-                        case 3:
-                            utils.EditContact();
-                            break;
+                    case 3:
+                        system.DisplayAddressBooks();
+                        break;
 
-                        case 4 :
-                            utils.DeleteContact();
-                            break;
+                    case 0:
+                        Console.WriteLine("Exit");
+                        break;
 
-                        case 5:
-                            utils.AddMultipleContacts();
-                            break;
+                    default:
+                        Console.WriteLine("Invalid choice");
+                        break;
+                }
 
-                        case 0:
-                            Console.WriteLine("Exit");
-                            break;
+            } while (choice != 0);
+        }
 
-                        default:
-                            Console.WriteLine("Invalid choice");
-                            break;
-                    }
+        public void ShowAddressBookMenu(AddressBook utils)
+        {
+            int choice2;
 
-                } while (choice != 0);
-            }
+            do
+            {
+                Console.WriteLine("\n-------- Address Book Menu --------");
+                Console.WriteLine("1. Display Contact");
+                Console.WriteLine("2. Add Contact");
+                Console.WriteLine("3. Edit Contact");
+                Console.WriteLine("4. Delete Contact");
+                Console.WriteLine("0. Back");
+
+                Console.WriteLine("Enter your choice");
+                choice2 = int.Parse(Console.ReadLine());
+
+                switch (choice2)
+                {
+                    case 1:
+                        utils.DisplayContact();
+                        break;
+
+                    case 2:
+                        utils.AddMultipleContacts();
+                        break;
+
+                    case 3:
+                        utils.EditContact();
+                        break;
+
+                    case 4:
+                        utils.DeleteContact();
+                        break;
+
+                    case 0:
+                        Console.WriteLine("Back");
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid choice");
+                        break;
+                }
+
+            } while (choice2 != 0);
         }
     }
+}
 
