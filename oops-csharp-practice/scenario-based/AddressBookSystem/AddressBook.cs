@@ -27,9 +27,9 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
             return Count; 
             }
 
-            public void SetCount()
+            public void SetCount(int count)
             {
-            this.Count = 0; 
+            this.Count = count; 
             }
 
         public override string ToString()
