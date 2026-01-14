@@ -4,39 +4,165 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System;
 
 namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBookSystem
+{
+    internal class AddressBook : IAddressBook
     {
-        internal class AddressBook
+        private Contact[] contacts = new Contact[50];
+        private int Count = 0;
+
+        // Method to Contacts
+        public void AddContact()
         {
-            private Contact[] contacts;
-            private int Count;
-
-            public Contact[] GetContacts()
+            if (Count >= contacts.Length)
             {
-                return contacts;
+                Console.WriteLine("AddressBook is full!");
+                return;
             }
 
-            public void SetContacts(Contact[] contacts)
-            {
-            this.contacts = contacts;
-            }
+            Contact contact = new Contact();
 
-            public int GetCount()
-            {
-            return Count; 
-            }
+            Console.WriteLine("Enter First Name");
+            contact.SetFirstName(Console.ReadLine());
 
-            public void SetCount(int count)
-            {
-            this.Count = count; 
-            }
+            Console.WriteLine("Enter Last Name");
+            contact.SetLastName(Console.ReadLine());
 
-        public override string ToString()
-        {
-            return $"Contact : {contacts}";
+            Console.WriteLine("Enter Address");
+            contact.SetAddress(Console.ReadLine());
+
+            Console.WriteLine("Enter City");
+            contact.SetCity(Console.ReadLine());
+
+            Console.WriteLine("Enter State");
+            contact.SetState(Console.ReadLine());
+
+            Console.WriteLine("Enter Zip");
+            contact.SetZip(Console.ReadLine());
+
+            Console.WriteLine("Enter Phone Number");
+            contact.SetPhoneNumber(Console.ReadLine());
+
+            Console.WriteLine("Enter Email");
+            contact.SetEmail(Console.ReadLine());
+
+            contacts[Count] = contact;
+            Count++;
+
+            Console.WriteLine("Contact Added Successfully!");
         }
+
+
+        // method to edit contact and in which i gave choice like what the-
+        // user wants to edit in Contacts' Attributes
+        public void EditContact()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No Contact Found");
+                return;
+            }
+
+            Console.WriteLine("Enter First Name to Edit Contact");
+            string name = Console.ReadLine().ToLower();
+
+            for (int i = 0; i < Count; i++)
+            {
+                string savedName = contacts[i].GetFirstName().ToLower();
+
+                if (savedName.Equals(name))
+                {
+                    // while loop for edititng until usesr wants 
+                    while (true)
+                    {
+                        Console.WriteLine("\n1. Edit First Name");
+                        Console.WriteLine("2. Edit Last Name");
+                        Console.WriteLine("3. Edit Address");
+                        Console.WriteLine("4. Edit City");
+                        Console.WriteLine("5. Edit State");
+                        Console.WriteLine("6. Edit Zip");
+                        Console.WriteLine("7. Edit Phone Number");
+                        Console.WriteLine("8. Edit Email");
+                        Console.WriteLine("0. Exit Edit Menu");
+
+                        Console.WriteLine("Enter Choice");
+                        int choice = int.Parse(Console.ReadLine());
+
+                        if (choice == 0)
+                        {
+                            Console.WriteLine("Edit Completed");
+                            return;
+                        }
+                        else if (choice == 1)
+                        {
+                            Console.WriteLine("Enter New First Name");
+                            contacts[i].SetFirstName(Console.ReadLine());
+                        }
+                        else if (choice == 2)
+                        {
+                            Console.WriteLine("Enter New Last Name");
+                            contacts[i].SetLastName(Console.ReadLine());
+                        }
+                        else if (choice == 3)
+                        {
+                            Console.WriteLine("Enter New Address");
+                            contacts[i].SetAddress(Console.ReadLine());
+                        }
+                        else if (choice == 4)
+                        {
+                            Console.WriteLine("Enter New City");
+                            contacts[i].SetCity(Console.ReadLine());
+                        }
+                        else if (choice == 5)
+                        {
+                            Console.WriteLine("Enter New State");
+                            contacts[i].SetState(Console.ReadLine());
+                        }
+                        else if (choice == 6)
+                        {
+                            Console.WriteLine("Enter New Zip");
+                            contacts[i].SetZip(Console.ReadLine());
+                        }
+                        else if (choice == 7)
+                        {
+                            Console.WriteLine("Enter New Phone Number");
+                            contacts[i].SetPhoneNumber(Console.ReadLine());
+                        }
+                        else if (choice == 8)
+                        {
+                            Console.WriteLine("Enter New Email");
+                            contacts[i].SetEmail(Console.ReadLine());
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid Choice");
+                        }
+
+                        Console.WriteLine("Contact Updated Successfully!");
+                    }
+                }
+            }
+
+            Console.WriteLine("Contact Not Found");
+        }
+
+
+        // Display The Contact
+        public void DisplayContact()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No Contact Found");
+                return;
+            }
+
+            for (int i = 0; i < Count; i++)
+            {
+                Console.WriteLine(contacts[i].ToString());
+                Console.WriteLine();
+            }
         }
     }
-
-
+}

@@ -8,7 +8,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
 {
         internal class AddressMenu
         {
-            private AddressBookUtils utils = new AddressBookUtils();
+            private AddressBook utils = new AddressBook();
             private int choice;
             public void ShowMenu()
             {
@@ -17,26 +17,34 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                 do
                 {
                     Console.WriteLine("\n-------- Address Book Menu --------");
-                    Console.WriteLine("1. UC2 - Add Contact");
-                    Console.WriteLine("2. Display Contact");
+                    Console.WriteLine("1.Display Contact");
+                    Console.WriteLine("2. Add Contact(UC-2)");
+                    Console.WriteLine("3.Edit Contact (UC-3)");
+                   
                     Console.WriteLine("0. Exit");
                     
 
                     Console.WriteLine("Enter your choice");
-                    choice = Convert.ToInt32(Console.ReadLine());
+                    choice = int.Parse(Console.ReadLine());
 
                     switch (choice)
                     {
                         case 1:
-                            utils.AddContact();
+                            utils.DisplayContact();
                             break;
 
                         case 2:
-                            utils.DisplayContact();
-                            return;
+                            utils.AddContact();
+                            break;
+
+                        case 3:
+                            utils.EditContact();
+                            break;
+
+                        
 
                         case 0:
-                            Console.WriteLine("Exiting...");
+                            Console.WriteLine("Exit");
                             break;
 
                         default:
