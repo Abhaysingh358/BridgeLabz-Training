@@ -188,6 +188,21 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
 
 
 
+        // UC5 to Add Multiple persons in address book
+        public void AddMultipleContacts()
+        {
+            int choice;
+
+            do
+            {
+                AddContact();
+
+                Console.WriteLine("Press 1 to Add More Contact OR 0 to Exit");
+                choice = int.Parse(Console.ReadLine());
+
+            } while (choice != 0);
+        }
+
 
 
         // Display The Contact

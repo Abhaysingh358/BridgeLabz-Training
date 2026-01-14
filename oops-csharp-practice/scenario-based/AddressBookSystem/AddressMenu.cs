@@ -21,8 +21,9 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                     Console.WriteLine("2. Add Contact(UC-2)");
                     Console.WriteLine("3.Edit Contact (UC-3)");
                     Console.WriteLine("4.Delete Contact (UC-4)");
+                    Console.WriteLine("5.Add Multiple Contacts (UC-5)");
 
-                    Console.WriteLine("0. Exit");
+                Console.WriteLine("0. Exit");
                     
 
                     Console.WriteLine("Enter your choice");
@@ -44,6 +45,10 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
 
                         case 4 :
                             utils.DeleteContact();
+                            break;
+
+                        case 5:
+                            utils.AddMultipleContacts();
                             break;
 
                         case 0:
