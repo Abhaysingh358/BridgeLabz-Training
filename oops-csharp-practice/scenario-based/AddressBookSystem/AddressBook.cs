@@ -244,8 +244,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
             return false;
         }
 
-
-
+       
         // Display The Contact
         public void DisplayContact()
         {

@@ -162,6 +162,154 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
         // uc8 methods end here
 
 
+        // uc9 methods where we to print view person by city or state
+        // method to view by city
+        public void ViewPersonsByCity()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No AddressBook Found");
+                return;
+            }
+
+            Console.WriteLine("Enter City Name");
+            string city = Console.ReadLine().ToLower();
+
+            int found = 0;
+
+            for (int i = 0; i < Count; i++)
+            {
+                Contact[] contacts = addressBooks[i].GetContacts();
+                int contactCount = addressBooks[i].GetCount();
+
+                for (int j = 0; j < contactCount; j++)
+                {
+                    if (contacts[j].GetCity().ToLower().Equals(city))
+                    {
+                        Console.WriteLine("\nAddressBook : " + addressBookNames[i]);
+                        Console.WriteLine(contacts[j].ToString());
+                        found++;
+                    }
+                }
+            }
+
+            if (found == 0)
+            {
+                Console.WriteLine("No Person Found In This City");
+            }
+            else
+            {
+                Console.WriteLine("\nTotal Persons in City : " + found);
+            }
+        }
+
+        // view by state
+        public void ViewPersonsByState()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No AddressBook Found");
+                return;
+            }
+
+            Console.WriteLine("Enter State Name");
+            string state = Console.ReadLine().ToLower();
+
+            int found = 0;
+
+            for (int i = 0; i < Count; i++)
+            {
+                Contact[] contacts = addressBooks[i].GetContacts();
+                int contactCount = addressBooks[i].GetCount();
+
+                for (int j = 0; j < contactCount; j++)
+                {
+                    if (contacts[j].GetState().ToLower().Equals(state))
+                    {
+                        Console.WriteLine("\nAddressBook : " + addressBookNames[i]);
+                        Console.WriteLine(contacts[j].ToString());
+                        found++;
+                    }
+                }
+            }
+
+            if (found == 0)
+            {
+                Console.WriteLine("No Person Found In This State");
+            }
+            else
+            {
+                Console.WriteLine("\nTotal Persons in State : " + found);
+            }
+        }
+
+
+        //uc9 ends here
+
+        // uc 10 count by city and state
+        public void CountByCity()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No AddressBook Found");
+                return;
+            }
+
+            Console.WriteLine("Enter City Name");
+            string city = Console.ReadLine().ToLower();
+
+            int total = 0;
+
+            for (int i = 0; i < Count; i++)
+            {
+                Contact[] contacts = addressBooks[i].GetContacts();
+                int contactCount = addressBooks[i].GetCount();
+
+                for (int j = 0; j < contactCount; j++)
+                {
+                    if (contacts[j].GetCity().ToLower().Equals(city))
+                    {
+                        total++;
+                    }
+                }
+            }
+
+            Console.WriteLine("Total Persons in City " + city + " : " + total);
+        }
+
+        // count by state
+
+        public void CountByState()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No AddressBook Found");
+                return;
+            }
+
+            Console.WriteLine("Enter State Name");
+            string state = Console.ReadLine().ToLower();
+
+            int total = 0;
+
+            for (int i = 0; i < Count; i++)
+            {
+                Contact[] contacts = addressBooks[i].GetContacts();
+                int contactCount = addressBooks[i].GetCount();
+
+                for (int j = 0; j < contactCount; j++)
+                {
+                    if (contacts[j].GetState().ToLower().Equals(state))
+                    {
+                        total++;
+                    }
+                }
+            }
+
+            Console.WriteLine("Total Persons in State " + state + " : " + total);
+        }
+        // uc 10 ends here
+
 
 
     }

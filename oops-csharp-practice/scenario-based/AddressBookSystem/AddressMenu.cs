@@ -23,6 +23,11 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                 Console.WriteLine("3. Display AddressBooks");
                 Console.WriteLine("4. Search Person By City (UC-8)");
                 Console.WriteLine("5. Search Person By State (UC-8)");
+                Console.WriteLine("6. View Persons By City (UC-9)");
+                Console.WriteLine("7. View Persons By State (UC-9)");
+                Console.WriteLine("8. Count By City (UC-10)");
+                Console.WriteLine("9. Count By State (UC-10)");
+
                 Console.WriteLine("0. Exit");
                 
 
@@ -59,6 +64,22 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                         system.SearchPersonByState();
                         break;
 
+                    case 6:
+                        system.ViewPersonsByCity();
+                        break;
+
+                    case 7:
+                        system.ViewPersonsByState();
+                        break;
+
+                    case 8:
+                        system.CountByCity();
+                        break;
+                       
+                    case 9:
+                        system.CountByState();
+                        break;
+
                     default:
                         Console.WriteLine("Invalid choice");
                         break;
@@ -78,6 +99,7 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                 Console.WriteLine("2. Add Contact");
                 Console.WriteLine("3. Edit Contact");
                 Console.WriteLine("4. Delete Contact");
+                Console.WriteLine("5. Sort Contacts (UC-10)");
                 Console.WriteLine("0. Back");
 
                 Console.WriteLine("Enter your choice");
@@ -97,9 +119,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                         utils.EditContact();
                         break;
 
-                    case 4:
-                        utils.DeleteContact();
-                        break;
+                    
+
 
                     case 0:
                         Console.WriteLine("Back");
