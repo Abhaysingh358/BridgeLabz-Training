@@ -498,6 +498,13 @@ Requirements:
 (e.g., "25:99").
 - Convert list to array when generating printable reports.
 
+---
+### Day23 (14 jan 2026)
+*Scenario-Based Questions*
+- Address Book System in which 11 ucs had to compelete
+using  oops Concepts
+
+
 
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
