@@ -11,6 +11,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
         private AddressBookSystem system = new AddressBookSystem();
         private int choice;
 
+
+
         public void ShowMenu()
         {
             do
@@ -19,7 +21,10 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                 Console.WriteLine("1. Add AddressBook");
                 Console.WriteLine("2. Select AddressBook");
                 Console.WriteLine("3. Display AddressBooks");
+                Console.WriteLine("4. Search Person By City (UC-8)");
+                Console.WriteLine("5. Search Person By State (UC-8)");
                 Console.WriteLine("0. Exit");
+                
 
                 Console.WriteLine("Enter your choice");
                 choice = int.Parse(Console.ReadLine());
@@ -44,6 +49,14 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
 
                     case 0:
                         Console.WriteLine("Exit");
+                        break;
+
+                    case 4:
+                        system.SearchPersonByCity();
+                        break;
+
+                    case 5:
+                        system.SearchPersonByState();
                         break;
 
                     default:

@@ -13,6 +13,18 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
         private Contact[] contacts = new Contact[50];
         private int Count = 0;
 
+        // getters for contact arrays uc8
+        public Contact[] GetContacts()
+        {
+            return contacts;
+        }
+
+        // getters for count for uc8
+        public int GetCount()
+        {
+            return Count;
+        }
+
 
         // Method to Contacts
         public void AddContact()
