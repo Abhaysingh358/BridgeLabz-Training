@@ -243,8 +243,66 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
             }
             return false;
         }
+        //-------------------------------------------------------------------------------------
+        // UC 11 to sort by zip code , name , state , city
+        public string GetKey(Contact contact, int choice)
+        {
+            if (choice == 1)
+                return contact.GetFirstName().ToLower();
 
-       
+            if (choice == 2)
+                return contact.GetCity().ToLower();
+
+            if (choice == 3)
+                return contact.GetState().ToLower();
+
+            return contact.GetZip().ToLower();
+        }
+
+        // method to use sort contacts
+        public void SortContactsByChoice()
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("No Contact Found");
+                return;
+            }
+
+            Console.WriteLine("1. Sort By Name");
+            Console.WriteLine("2. Sort By City");
+            Console.WriteLine("3. Sort By State");
+            Console.WriteLine("4. Sort By Zip");
+
+            Console.WriteLine("Enter Choice");
+            int choice = Convert.ToInt32(Console.ReadLine());
+
+            if (choice < 1 || choice > 4)
+            {
+                Console.WriteLine("Invalid Choice");
+                return;
+            }
+
+            for (int i = 0; i < Count - 1; i++)
+            {
+                for (int j = 0; j < Count - 1 - i; j++)
+                {
+                    string first = GetKey(contacts[j], choice);
+                    string second = GetKey(contacts[j + 1], choice);
+
+                    if (string.Compare(first, second) > 0)
+                    {
+                        Contact temp = contacts[j];
+                        contacts[j] = contacts[j + 1];
+                        contacts[j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts Sorted Successfully!");
+            DisplayContact();
+        }
+        //uc 11 methods ends here
+        //-------------------------------------------------------------------------------------------
         // Display The Contact
         public void DisplayContact()
         {

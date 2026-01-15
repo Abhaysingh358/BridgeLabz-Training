@@ -99,7 +99,8 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                 Console.WriteLine("2. Add Contact");
                 Console.WriteLine("3. Edit Contact");
                 Console.WriteLine("4. Delete Contact");
-                Console.WriteLine("5. Sort Contacts (UC-10)");
+                Console.WriteLine("5. Sort Contacts (UC-11)");
+
                 Console.WriteLine("0. Back");
 
                 Console.WriteLine("Enter your choice");
@@ -119,7 +120,13 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
                         utils.EditContact();
                         break;
 
-                    
+                    case 4:
+                        utils.DeleteContact();
+                        break;
+
+                    case 5:
+                        utils.SortContactsByChoice();
+                        break;
 
 
                     case 0:

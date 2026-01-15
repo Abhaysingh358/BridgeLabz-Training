@@ -13,6 +13,6 @@ namespace BridgeLabz.gcr_codebase.oops_csharp_practice.scenario_based.AddressBoo
         public void DeleteContact(); //uc4
 
         public void AddMultipleContacts(); // uc5
-
+        public void SortContactsByChoice(); // uc11
     }
 }
