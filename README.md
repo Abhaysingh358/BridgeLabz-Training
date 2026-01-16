@@ -505,6 +505,10 @@ Requirements:
 using  oops Concepts
 
 
+### Day24(15 jan 2026)
+- Compeleted till UC11 of AddressBookSystem
+- Q&A Session
+- Revise Linked List
 
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
