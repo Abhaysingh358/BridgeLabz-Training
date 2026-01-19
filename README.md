@@ -510,6 +510,16 @@ using  oops Concepts
 - Q&A Session
 - Revise Linked List
 
+### Day25(16 jan 2026)
+- DSA Practice Till Linked List , Stack and Queue
+- practiced Scenario Based Questions
+- Q1 - BookShelf
+- Q2 - Traffic Manager
+### Day26(17 jan 2026)
+- Practiced DSA Questions  using OOPS and DSA (LinkedList , Stack ,Queue)
+- Q1 - FlashDealz
+- Q2 - Fitness Tracker (which shows leaderboard on the basis of ranks)
+
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
 - Understood internal working of .NET (CLR, IL, MSIL)
