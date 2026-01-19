@@ -520,6 +520,38 @@ using  oops Concepts
 - Q1 - FlashDealz
 - Q2 - Fitness Tracker (which shows leaderboard on the basis of ranks)
 
+### Sunday(18 Jan 2026)
+- Update Address Book System .Firstly it was based on array so we have been given the task that we have to change it and make it Linked list oriented . Basically we used linked list in place of Array.
+
+### Day 27(19 Jan 2026)
+- Practiced tow Scenario Based Questions
+- Q1 - ParcelTracker – Delivery Chain Management (Singly Linked List).
+
+  Story: A courier company tracks parcels through stages like Packed → Shipped → In Transit →
+  Delivered. Each stage is a node in a Singly Linked List.
+  Requirements:
+- Forward tracking through stages.
+- Add custom intermediate checkpoints.
+- Handle lost/missing parcels (null pointers).
+
+- Q2 - ExamProctor – Online Exam Review System (Stack + HashMap +
+  Functions)
+  Story: During an online exam, each student’s question navigation is recorded using a Stack
+  (last visited question). Answers are stored in a HashMap: questionID → answer.
+  A function auto-calculates the score once the student submits.
+  Requirements:
+- Track navigation with stack.
+- Store answers in a map.
+- Evaluate using functions for scoring logic.
+
+### Module Learning
+- Generics And Collections is Going on , Basics are done
+- what is Generics?
+- Why is it used ?
+- Type safetry
+- Generic Class and Methods
+- Wild Cards
+- Bounded Type Parameters
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
 - Understood internal working of .NET (CLR, IL, MSIL)
