@@ -1,7 +1,7 @@
 # BridgeLabz-Training
 
 ## Description
-This repository is part of the training program provided by BridgeLabz in collaboration with Capgemini.  
+This repository is part of the training program provided by BridgeLabz.  
 During this training, I am working on multiple technologies to strengthen my fundamentals, understand real-world development workflows, and improve problem-solving skills through hands-on practice.
 
 ---
