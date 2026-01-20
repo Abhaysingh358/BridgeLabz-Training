@@ -552,6 +552,36 @@ using  oops Concepts
 - Generic Class and Methods
 - Wild Cards
 - Bounded Type Parameters
+
+### Day 28(20 jan 2026)
+#### Scenario Based Questions
+- Story 1: Sorting Aadhar Numbers using Radix Sort
+Context: Aadhar numbers (12-digit) need to be sorted efficiently.
+ Scenario A: Sort all Aadhar numbers in ascending order.
+ Scenario B: Search for a particular number via binary search post-sorting.
+ Scenario C: Maintain order of entries with same prefix.
+
+- Backtracking
+Story 1: Password Cracker Simulator
+Context: Try all possible combinations to unlock a vault.
+Scenario A: Generate all strings of length n.
+Scenario B: Stop if password is matched.
+Scenario C: Visualize time-space complexity.
+
+#### Concepts Learned
+- Generics Compeleted
+- Overview of Collections Framework
+- What is the Collections Framework?
+- Hierarchy of Collections Framework
+- List Interface and Implementing Classes
+- Set Interface and Implementing Classes
+- Queue and Deque Interfaces
+- Map Interface and Its Implementations
+- Comparison of Different Implementations
+- Real-World Use Cases and Best Practices.
+
+For now only Basics Are Done and Practice is Going on
+
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
 - Understood internal working of .NET (CLR, IL, MSIL)
