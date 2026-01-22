@@ -582,6 +582,21 @@ Scenario C: Visualize time-space complexity.
 
 For now only Basics Are Done and Practice is Going on
 
+### Day 29 (21 jan 2026)
+- Topics covered ---
+- C# I/O Streams
+Types of Streams
+1. File Streams
+2. Object Streams
+3. ByteArray Streams
+4. Buffered Streams
+5. Reader and Writer
+
+- Scenario Based Question
+- Q1. Rank Sheet Generator
+- Q2. SuperMarket Billing Queue using Collections
+
+
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
 - Understood internal working of .NET (CLR, IL, MSIL)
