@@ -596,6 +596,37 @@ Types of Streams
 - Q1. Rank Sheet Generator
 - Q2. SuperMarket Billing Queue using Collections
 
+### Day 30 (22 jan 2026)
+- Topics Covered ------->
+- Exceptions
+- Scenario Based Question
+- AmbulanceRoute – Emergency Patient Navigation (Circular Linked
+List)
+
+### Day 31 (23 jan 2026)
+- Topics Covered 
+- Regex 
+- MetaCharacter
+- Quantifier
+
+- Common Patterns:
+ Email Validation,
+ Password Strength,
+ Phone Number Format ,
+
+- C# Regex API 
+- Pattern
+- Matcher
+- Methods:
+find(),
+matches(),
+replaceAll(),
+Introduction to NUnit Framework,
+NUnit Annotations,
+Writing Test Cases,
+Structure of a Test Class,
+Assertions
+
 
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
