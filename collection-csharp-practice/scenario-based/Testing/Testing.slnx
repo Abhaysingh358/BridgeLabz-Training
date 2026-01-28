@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CoreLogic.MSTests/CoreLogic.MSTests.csproj" />
+  <Project Path="CoreLogic.NUnitTests/CoreLogic.NUnitTests.csproj" />
+  <Project Path="CoreLogic/CoreLogic.csproj" />
+</Solution>
