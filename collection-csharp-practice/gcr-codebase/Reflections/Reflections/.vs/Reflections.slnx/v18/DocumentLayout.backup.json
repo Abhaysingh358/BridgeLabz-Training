@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\reflections\\advanced\\executiontiming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|solutionrelative:advanced\\executiontiming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\reflections\\advanced\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|solutionrelative:advanced\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\reflections\\advanced\\loggingproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|solutionrelative:advanced\\loggingproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\reflections\\advanced\\jsonrepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|solutionrelative:advanced\\jsonrepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\reflections\\advanced\\objectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|solutionrelative:advanced\\objectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\reflections\\accessprivatefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6433B9B6-5137-4062-885F-911337B0D681}|Reflections.csproj|solutionrelative:accessprivatefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExecutionTiming.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\ExecutionTiming.cs",
+              "RelativeDocumentMoniker": "Advanced\\ExecutionTiming.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\ExecutionTiming.cs",
+              "RelativeToolTip": "Advanced\\ExecutionTiming.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:25:44.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Advanced\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\DependencyInjection.cs",
+              "RelativeToolTip": "Advanced\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:18:08.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggingProxy.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\LoggingProxy.cs",
+              "RelativeDocumentMoniker": "Advanced\\LoggingProxy.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\LoggingProxy.cs",
+              "RelativeToolTip": "Advanced\\LoggingProxy.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:06:30.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JsonRepresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\JsonRepresentation.cs",
+              "RelativeDocumentMoniker": "Advanced\\JsonRepresentation.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\JsonRepresentation.cs",
+              "RelativeToolTip": "Advanced\\JsonRepresentation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:05:23.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\ObjectMapper.cs",
+              "RelativeDocumentMoniker": "Advanced\\ObjectMapper.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\Advanced\\ObjectMapper.cs",
+              "RelativeToolTip": "Advanced\\ObjectMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:04:14.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccessPrivateField.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\AccessPrivateField.cs",
+              "RelativeDocumentMoniker": "AccessPrivateField.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Reflections\\AccessPrivateField.cs",
+              "RelativeToolTip": "AccessPrivateField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T13:26:08.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
