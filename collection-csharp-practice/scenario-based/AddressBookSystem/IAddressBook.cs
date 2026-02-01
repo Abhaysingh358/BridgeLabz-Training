@@ -8,12 +8,12 @@ namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
 {
     internal interface IAddressBook
     {
-        void AddContact();
-        void AddMultipleContacts();
-        void DisplayContact();
-        void EditContact();
-        void DeleteContact();
-        void SortContactsByChoice();
+        void AddContact(); // UC1
+        void AddMultipleContacts(); // menu use
+        void DisplayContact(); // mandatory
+        void EditContact(); // UC3
+        void DeleteContact(); // mandatory
+        void SortContactsByChoice(); // UC11
     }
 }
 
