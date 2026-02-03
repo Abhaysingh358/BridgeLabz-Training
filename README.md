@@ -627,6 +627,20 @@ Writing Test Cases,
 Structure of a Test Class,
 Assertions
 
+### Day 32(27 jan 2026)
+- Topics Covered
+ -  Deep dive into the concept of MS Testing
+ - Stream Concept
+- Code Practice -
+  -  Collections And Scenario Based
+
+### Day 33(28 jan 2026)
+#### C# Scenario Based Questions and CSV Data Handling
+- Toipcs Learnt
+  - Scenario Based Questions AeroVigil , Validation of Bank Account
+  - Concept of Annotations and Reflection
+  - Stream Concept
+
 
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
