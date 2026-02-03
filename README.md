@@ -641,6 +641,48 @@ Assertions
   - Concept of Annotations and Reflection
   - Stream Concept
 
+### Day 34 (29 jan 2026)
+- Topics Learnt 
+  - Introduction to JSON
+  - Reading JSON Data
+  - Writing JSON Data
+  - Parsing JSON Data
+  - JSON Schema Validation
+
+- Practiced 
+  - Scenario Based Questions 
+    - StreamBuzz , OceanFleet
+  - CSV Data Handling
+
+### Day 35(30 jan 2026)
+- Practice
+  - Scenario Based Questions
+    - Lexical Twist using Regex 
+    - Future Logistics 
+  
+  - Revised Previous Concepts
+
+### Day 36 (31 jan 2026)
+- Topics Learnt
+  - JSON Data Practiced 
+  - Revised  Regex , Generics and Collections
+  - practiced question on it
+
+### Day 37(02 Feb 2026)
+#### Topics Covered
+- Design Principles
+  -  OOP design principles
+  - SOLID
+  - KISS
+  - DRY
+  - DIY
+
+- Design Pattern
+  - GoF design patterns and different types of design patterns
+  
+- Multithreading, Stream api, Delegates, Events
+
+
 
 <!-- ## Learning Outcomes
 - Learned .NET framework basics and C# fundamentals
