@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
 {
-    internal class Contact
+    public class Contact
     {
         private string FirstName;
         private string LastName;

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
 {
-    internal class AddressBook : IAddressBook
+    public class AddressBook : IAddressBook , IAddressBookLogic
     {
         private string addressBookName;
 
@@ -24,45 +24,85 @@ namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
         // UC1
         public void AddContact()
         {
-            Console.WriteLine("Enter First Name");
-            string firstName = Console.ReadLine();
-
-            // Check duplicate by first name
-            if (contactList.Any(c => c.GetFirstName()
-                .Equals(firstName, StringComparison.OrdinalIgnoreCase)))
+            try
             {
-                Console.WriteLine("Contact Already Exists!");
-                return;
+                Console.WriteLine("Enter First Name");
+                string firstName = Console.ReadLine();
+
+                if (!ValidationUtility.IsValidName(firstName))
+                {
+                    throw new InvalidInputException("Invalid First Name");
+                }
+
+                // Check duplicate by first name
+                if (contactList.Any(c => c.GetFirstName()
+                    .Equals(firstName, StringComparison.OrdinalIgnoreCase)))
+                {
+                    Console.WriteLine("Contact Already Exists!");
+                    return;
+                }
+
+                Contact contact = new Contact();
+                contact.SetFirstName(firstName);
+
+                Console.WriteLine("Enter Last Name");
+                string lastName = Console.ReadLine();
+
+                if (!ValidationUtility.IsValidName(lastName))
+                {
+                    throw new InvalidInputException("Invalid Last Name");
+                }
+                contact.SetLastName(lastName);
+
+                Console.WriteLine("Enter Address");
+                contact.SetAddress(Console.ReadLine());
+
+                Console.WriteLine("Enter City");
+                contact.SetCity(Console.ReadLine());
+
+                Console.WriteLine("Enter State");
+                contact.SetState(Console.ReadLine());
+
+                Console.WriteLine("Enter Zip");
+                string zip = Console.ReadLine();
+
+                if (!ValidationUtility.IsValidZip(zip))
+                {
+                    throw new InvalidInputException("Invalid Zip");
+                }
+                contact.SetZip(zip);
+
+                Console.WriteLine("Enter Phone Number");
+                string phone = Console.ReadLine();
+
+                if (!ValidationUtility.IsValidPhoneNumber(phone))
+                {
+                    throw new InvalidInputException("Invalid Phone Number");
+                }
+                contact.SetPhoneNumber(phone);
+
+                Console.WriteLine("Enter Email");
+                string email = Console.ReadLine();
+
+                if (!ValidationUtility.IsValidEmail(email))
+                {
+                    throw new InvalidInputException("Invalid Email");
+                }
+                contact.SetEmail(email);
+
+                // Add contact to list
+                contactList.Add(contact);
+
+                Console.WriteLine("Contact Added Successfully!");
             }
-
-            Contact contact = new Contact();
-            contact.SetFirstName(firstName);
-
-            Console.WriteLine("Enter Last Name");
-            contact.SetLastName(Console.ReadLine());
-
-            Console.WriteLine("Enter Address");
-            contact.SetAddress(Console.ReadLine());
-
-            Console.WriteLine("Enter City");
-            contact.SetCity(Console.ReadLine());
-
-            Console.WriteLine("Enter State");
-            contact.SetState(Console.ReadLine());
-
-            Console.WriteLine("Enter Zip");
-            contact.SetZip(Console.ReadLine());
-
-            Console.WriteLine("Enter Phone Number");
-            contact.SetPhoneNumber(Console.ReadLine());
-
-            Console.WriteLine("Enter Email");
-            contact.SetEmail(Console.ReadLine());
-
-            // Add contact to list
-            contactList.Add(contact);
-
-            Console.WriteLine("Contact Added Successfully!");
+            catch (InvalidInputException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Input");
+            }
         }
 
         // Mandatory display (not UC)
@@ -108,34 +148,60 @@ namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
             Console.WriteLine("5. Phone Number");
             Console.WriteLine("6. Email");
 
-            int choice = Convert.ToInt32(Console.ReadLine());
-
-            switch (choice)
+            try
             {
-                case 1:
-                    contact.SetAddress(Console.ReadLine());
-                    break;
-                case 2:
-                    contact.SetCity(Console.ReadLine());
-                    break;
-                case 3:
-                    contact.SetState(Console.ReadLine());
-                    break;
-                case 4:
-                    contact.SetZip(Console.ReadLine());
-                    break;
-                case 5:
-                    contact.SetPhoneNumber(Console.ReadLine());
-                    break;
-                case 6:
-                    contact.SetEmail(Console.ReadLine());
-                    break;
-                default:
-                    Console.WriteLine("Invalid Choice");
-                    return;
-            }
+                int choice = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Contact Updated Successfully!");
+                switch (choice)
+                {
+                    case 1:
+                        contact.SetAddress(Console.ReadLine());
+                        break;
+                    case 2:
+                        contact.SetCity(Console.ReadLine());
+                        break;
+                    case 3:
+                        contact.SetState(Console.ReadLine());
+                        break;
+                    case 4:
+                        string zip = Console.ReadLine();
+                        if (!ValidationUtility.IsValidZip(zip))
+                        {
+                            throw new InvalidInputException("Invalid Zip");
+                        }
+                        contact.SetZip(zip);
+                        break;
+                    case 5:
+                        string phone = Console.ReadLine();
+                        if (!ValidationUtility.IsValidPhoneNumber(phone))
+                        {
+                            throw new InvalidInputException("Invalid Phone Number");
+                        }
+                        contact.SetPhoneNumber(phone);
+                        break;
+                    case 6:
+                        string email = Console.ReadLine();
+                        if (!ValidationUtility.IsValidEmail(email))
+                        {
+                            throw new InvalidInputException("Invalid Email");
+                        }
+                        contact.SetEmail(email);
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Choice");
+                        return;
+                }
+
+                Console.WriteLine("Contact Updated Successfully!");
+            }
+            catch (InvalidInputException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Input");
+            }
         }
 
         // Delete Contact
@@ -163,13 +229,20 @@ namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
         // this method used to add multiple contacts by asking user how many contacts he wants to add
         public void AddMultipleContacts()
         {
-            Console.WriteLine("How Many Contacts You Want to Add?");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-            for (int i = 0; i < num; i++)
+            try
             {
-                Console.WriteLine("\nEnter Contact " + (i + 1) + " Details");
-                AddContact();
+                Console.WriteLine("How Many Contacts You Want to Add?");
+                int num = Convert.ToInt32(Console.ReadLine());
+
+                for (int i = 0; i < num; i++)
+                {
+                    Console.WriteLine("\nEnter Contact " + (i + 1) + " Details");
+                    AddContact();
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Input");
             }
         }
 
@@ -177,42 +250,86 @@ namespace BridgeLabz.collection_csharp_practice.scenario_based.AddressBookSystem
         // here we take user choice and sort contacts accordingly using list
         public void SortContactsByChoice()
         {
-            Console.WriteLine("Choose Sorting Option");
-            Console.WriteLine("1. Sort By First Name");
-            Console.WriteLine("2. Sort By City");
-            Console.WriteLine("3. Sort By State");
-            Console.WriteLine("4. Sort By Zip");
-
-            int choice = Convert.ToInt32(Console.ReadLine());
-
-            // Sorting contacts using generic list
-            switch (choice)
+            try
             {
-                case 1:
-                    contactList = contactList.OrderBy(c => c.GetFirstName()).ToList();
-                    break;
-                case 2:
-                    contactList = contactList.OrderBy(c => c.GetCity()).ToList();
-                    break;
-                case 3:
-                    contactList = contactList.OrderBy(c => c.GetState()).ToList();
-                    break;
-                case 4:
-                    contactList = contactList.OrderBy(c => c.GetZip()).ToList();
-                    break;
-                default:
-                    Console.WriteLine("Invalid Choice");
-                    return;
-            }
+                Console.WriteLine("Choose Sorting Option");
+                Console.WriteLine("1. Sort By First Name");
+                Console.WriteLine("2. Sort By City");
+                Console.WriteLine("3. Sort By State");
+                Console.WriteLine("4. Sort By Zip");
 
-            Console.WriteLine("Contacts Sorted Successfully!");
-            DisplayContact();
+                int choice = Convert.ToInt32(Console.ReadLine());
+
+                // Sorting contacts using generic list
+                switch (choice)
+                {
+                    case 1:
+                        contactList = contactList.OrderBy(c => c.GetFirstName()).ToList();
+                        break;
+                    case 2:
+                        contactList = contactList.OrderBy(c => c.GetCity()).ToList();
+                        break;
+                    case 3:
+                        contactList = contactList.OrderBy(c => c.GetState()).ToList();
+                        break;
+                    case 4:
+                        contactList = contactList.OrderBy(c => c.GetZip()).ToList();
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Choice");
+                        return;
+                }
+
+                Console.WriteLine("Contacts Sorted Successfully!");
+                DisplayContact();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Input");
+            }
         }
 
         // Getter for AddressBookSystem UC8/UC9/UC10 (traversal using list)
         public List<Contact> GetContactList()
         {
             return contactList;
+        }
+    
+
+
+
+ // =============================================================================================
+     // ================= MSTest logic methods =================
+
+        public bool AddContactForTest(Contact contact)
+        {
+            if (!ValidationUtility.IsValidName(contact.GetFirstName()))
+            {
+                throw new InvalidInputException("Invalid First Name");
+            }
+
+            if (contactList.Any(c =>
+                c.GetFirstName().Equals(contact.GetFirstName(), StringComparison.OrdinalIgnoreCase)))
+            {
+                return false;
+            }
+
+            contactList.Add(contact);
+            return true;
+        }
+
+        public bool DeleteContactForTest(string firstName)
+        {
+            Contact contact = contactList.FirstOrDefault(c =>
+                c.GetFirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase));
+
+            if (contact == null)
+            {
+                return false;
+            }
+
+            contactList.Remove(contact);
+            return true;
         }
     }
 }
