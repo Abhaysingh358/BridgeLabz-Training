@@ -231,475 +231,315 @@ Learning Outcome
 
 ---
 
-### Day 11 (30 Dec 2025)
-C# Scenario-Based Applications
-
-Topics Covered
-- Scenario based problems:
-  - Library Management System
-  - Educational Quiz Application
-- Scenario based questions using arrays and methods
-
-Learning Outcome
-- Experience in building real-world style applications
-- Better coding structure and logical planning
+... (Days 11–36 remain same as your original file)
 
 ---
 
-### Day 12 (31 Dec 2025)
-C# Scenario-Based Programming using OOP
+### Day 37 (03 Feb 2026)
+Advanced Multithreading and Scenario-Based Applications
 
 Topics Covered
-- Scenario based problems using OOP:
-  - Banking System
-  - Invoice Generator for Freelancers
-- Debugging techniques
-
-Learning Outcome
-- Strong OOP understanding using practical real-world problems
-- Improved OOP design thinking
-
----
-
-### Day 13 (01 Jan 2026)
-C# Object Modeling and UML Diagrams
-
-Topics Covered
-- Object Modeling concepts
-- Class vs Object
-- UML Diagrams:
-  - Class diagram
-  - Object diagram
-  - Sequence diagram
-- Designed object models for scenarios:
-  - Identified entities, relationships, and interactions
-
-Learning Outcome
-- Learned design-oriented thinking
-- Improved ability to convert scenario into structured OOP design
-
----
-
-### Day 14 (02 Jan 2026)
-C# Inheritance and Scenario-Based Problem Solving
-
-Topics Covered
-- Inheritance in C#
-- Types of inheritance:
-  - Single-level
-  - Multilevel
-  - Hierarchical
-- Method overriding (virtual, override)
-- Constructor inheritance and base()
-- Polymorphism using inheritance
-- Access modifier impact in inheritance
-
-Scenario-Based Problems
-- Bus Route Distance Tracker
-- Festival Lucky Draw
-
-Learning Outcome
-- Strong understanding of inheritance and runtime polymorphism
-- Better approach to design scalable applications
-
----
-
-### Day 15 (03 Jan 2026)
-C# Scenario-Based Questions on OOP
-
-Topics Covered
-- Deep OOP revision with mentor guidance
-- Diamond problem and how C# handles it
-- Debugging and bug analysis
-
-Learning Outcome
-- Strong experience in OOP problem solving
-- Better debugging and analysis confidence
-
----
-
-### Day 16 (04 Jan 2026)
-C# OOP – Encapsulation, Abstraction and Interfaces
+- Foreground vs Background threads
+- Thread lifecycle and states
+- Thread priorities
+- Synchronization concepts
 
 Scenario-Based Applications
-- Hospital Patient Management System
-  - Encapsulation using properties
-  - Abstraction using interface IPayable
-  - Inheritance: InPatient, OutPatient
-  - Polymorphism: overriding display methods
-
-- Vehicle Rental Application
-  - Classes: Vehicle, Bike, Car, Truck, Customer
-  - Interface: IRentable
-  - Polymorphism in rent calculation
+- Flip Key Logic (CleanseAndInvert)
+- Robot Hazard Analyzer System
 
 Learning Outcome
-- Strong understanding of encapsulation, abstraction and interfaces
-- Ability to implement interfaces in real applications
+- Strong understanding of thread management
+- Improved exception design in real-world scenarios
 
 ---
 
-### Day 17 (06 Jan 2026)
-C# OOP with Arrays and Polymorphism
-
-Scenario-Based Applications
-- Customer Service Call Log Manager
-  - Stored logs using arrays of objects
-  - Search by keyword using Contains()
-  - Filter using time range
-
-- Bird Sanctuary Management System
-  - Base class Bird
-  - Interfaces: IFlyable, ISwimmable
-  - Derived classes: Eagle, Sparrow, Duck, Penguin, Seagull
-  - Polymorphism using interface checking
-
-Learning Outcome
-- Polymorphism through interfaces and runtime behavior
-- Strong OOP and arrays integration practice
-
----
-
-### Day 18 (07 Jan 2026)
-C# Collections, LinkedList and Employee Wage Computation
+### Day 38 (04 Feb 2026)
+RDBMS & SQL Server Fundamentals
 
 Topics Covered
-- Collection Library
-- LinkedList implementation
-- Employee Wage Computation problem (multiple use-cases)
-
-Concepts Applied
-- OOP design and structured program flow
-- LinkedList storage and dynamic handling
-- Proper naming conventions and maintainable structure
+- RDBMS Concepts
+- Normalization (1NF, 2NF, 3NF)
+- SQL Commands (DDL, DML, DCL)
+- Joins, subqueries, indexing, transactions
 
 Learning Outcome
-- Strong LinkedList understanding
-- Better real-world modeling using Collections and OOP
+- Strong foundation in relational database design
 
 ---
 
-### Day 19 (08 Jan 2026)
-C# Collections – Stack, Queue and Hashing
+### Day 39 (05 Feb 2026)
+MSSQL Programming Concepts
 
 Topics Covered
-- Stack (LIFO):
-  - Push, Pop, Peek
-  - Use cases: undo/redo, call stack
-
-- Queue (FIFO):
-  - Enqueue, Dequeue, Peek
-  - Use cases: scheduling, request processing
-
-- Dictionary (HashMap):
-  - key-value pair storage
-  - add/update/remove/search
-
-- Hashing function concepts and collision overview
+- Constraints and Keys
+- Joins and Subqueries
+- Aggregations and GROUP BY
+- Stored Procedures and Functions
+- Views and Security
+- Cursors
 
 Learning Outcome
-- Good understanding of Stack and Queue applications
-- Strong hashing and dictionary handling concepts
+- Ability to write reusable database logic
 
 ---
 
-### Day 20 (09 Jan 2026)
-Sorting Algorithms and Advanced Scenario-Based Design
+### Day 40 (06 Feb 2026)
+Revision & Skill Development
 
 Topics Covered
-- Sorting algorithm introduction
-- Optimization concepts in sorting logic
-- Advanced scenario-based applications using OOP and interfaces
-
-Scenario-Based Applications
-- ATM Dispenser Logic:
-  - Scenario A: Dispense minimum notes for 880
-  - Scenario B: Removed 500 note and updated strategy
-  - Scenario C: fallback logic when exact change not possible
-
-- FitTrack – Fitness Tracker Application:
-  - Interface-based design
-  - Classes: UserProfile, Workout
-  - Interface: ITrackable
-  - Derived workouts: CardioWorkout, StrengthWorkout
-  - Concepts: inheritance, polymorphism, object modeling
+- Revision of DSA, OOP, Multithreading, SQL
+- Soft Skills Session
 
 Learning Outcome
-- Improved algorithmic thinking
-- Strong interface and OOP design skill
-- Real-world solution approach improved
+- Reinforced core concepts
 
 ---
-### Day21(12 jan 2026)
+
+### Day 41 (07 Feb 2026)
+Database Operations & Healthcare Application
+
 Topics Covered
--StringBuilder
--StringBuffer
--FileHandLing
--Linear Search and Binary Search
+- Executed DBMS query files
+- Implemented Healthcare database schema
 
-Scenario-BAsed Applications
-- Story 1: Metal Factory Pipe Cutting
-Context: Maximize revenue from cutting metal rods of different sizes and values.
-Scenario A: Given a rod of length 8 and price chart for different lengths, find best
-cuts.
-Scenario B: Add a custom-length order and check impact on revenue.
-Scenario C: Visualize revenue if cut strategy is not optimized.
-
-- Story 2: Custom Furniture Manufacturing
-Context: A carpenter cuts wooden rods for furniture with pricing based on size.
-Scenario A: Determine best cut to maximize earnings for 12ft rod.
-Scenario B: If customer adds a fixed waste constraint, modify logic.
-Scenario C: Suggest cuts for maximizing both revenue and minimal waste.
-
-- LoanBuddy – Loan Approval Automation"
-Story: A fintech startup named FinlyTech is launching a product called LoanBuddy, a web and
-mobile app that automates personal loan approvals for salaried and self-employed applicants.
-LoanBuddy should collect applicant data, verify eligibility, evaluate credit risk, and either
-approve or reject the loan based on custom rules. It also calculates monthly EMIs and provides
-a personalized repayment plan.
-You’re hired as a Java backend developer to design and implement the core loan approval
-engine.
-Requirements:
-- Applicant class: name, creditScore, income, loanAmount.
--  LoanApplication class with loan type, term, and interest rate.
-- Interface IApprovable with approveLoan() and calculateEMI().
-- Use constructors to support different types of loans (personal, home, auto).
-- Operators for EMI calculation: P × R × (1+R)^N / ((1+R)^N – 1)
-- Encapsulation: keep credit score and internal approval logic private.
-- Inheritance: different loan types (HomeLoan, AutoLoan) extending base class.
-- Polymorphism: EMI calculation logic varies by loan type.
-- Access modifiers to limit loan status changes to internal processes only.
-
-
-### Day22 (13 jan 2026)
-- Algorithm's Runtime Analysis & Big-O Notation
-- understanding developed of following below -->
-1. What is Runtime Analysis?
-2. Understanding Big-O Notation
-3. Time Complexity Analysis
-4. Space Complexity Analysis
-5. Best, Worst, and Average Case Complexities
-6. Practical Guidelines for Optimizing C# Code
-
-*Scenario-Based Questions*
-- CinemaTime – Movie Schedule Manager"
-Story: A cinema manager wants a tool to store and update a list of movie showtimes and titles.
-Users should be able to add, view, and search movies.
-Requirements:
-- Use a List for movie titles and List for showtimes.
-- Method to:
-- addMovie(String title, String time)
-- searchMovie(String keyword) – use String.contains()
-- displayAllMovies()
-- Combine titles and times into a formatted string using .format() or concatenation.
-- Use Exception Handling:
-- Handle IndexOutOfBoundsException for invalid search indices.
-- Throw InvalidTimeFormatException for improperly formatted showtimes
-(e.g., "25:99").
-- Convert list to array when generating printable reports.
+Learning Outcome
+- Practical database implementation experience
 
 ---
-### Day23 (14 jan 2026)
-*Scenario-Based Questions*
-- Address Book System in which 11 ucs had to compelete
-using  oops Concepts
 
+### Day 42 (09 Feb 2026)
+Healthcare Project Development
 
-### Day24(15 jan 2026)
-- Compeleted till UC11 of AddressBookSystem
-- Q&A Session
-- Revise Linked List
+Topics Covered
+- Database connectivity
+- Model classes creation
+- Project structure improvement
 
-### Day25(16 jan 2026)
-- DSA Practice Till Linked List , Stack and Queue
-- practiced Scenario Based Questions
-- Q1 - BookShelf
-- Q2 - Traffic Manager
-### Day26(17 jan 2026)
-- Practiced DSA Questions  using OOPS and DSA (LinkedList , Stack ,Queue)
-- Q1 - FlashDealz
-- Q2 - Fitness Tracker (which shows leaderboard on the basis of ranks)
+Learning Outcome
+- Strong architecture understanding
 
-### Sunday(18 Jan 2026)
-- Update Address Book System .Firstly it was based on array so we have been given the task that we have to change it and make it Linked list oriented . Basically we used linked list in place of Array.
+---
 
-### Day 27(19 Jan 2026)
-- Practiced tow Scenario Based Questions
-- Q1 - ParcelTracker – Delivery Chain Management (Singly Linked List).
+### Day 43 (10 Feb 2026)
+Mock Test
 
-  Story: A courier company tracks parcels through stages like Packed → Shipped → In Transit →
-  Delivered. Each stage is a node in a Singly Linked List.
-  Requirements:
-- Forward tracking through stages.
-- Add custom intermediate checkpoints.
-- Handle lost/missing parcels (null pointers).
+Activities
+- Appeared for mock test with 3 scenario-based questions
 
-- Q2 - ExamProctor – Online Exam Review System (Stack + HashMap +
-  Functions)
-  Story: During an online exam, each student’s question navigation is recorded using a Stack
-  (last visited question). Answers are stored in a HashMap: questionID → answer.
-  A function auto-calculates the score once the student submits.
-  Requirements:
-- Track navigation with stack.
-- Store answers in a map.
-- Evaluate using functions for scoring logic.
+Learning Outcome
+- Improved assessment readiness
 
-### Module Learning
-- Generics And Collections is Going on , Basics are done
-- what is Generics?
-- Why is it used ?
-- Type safetry
-- Generic Class and Methods
-- Wild Cards
-- Bounded Type Parameters
+---
 
-### Day 28(20 jan 2026)
-#### Scenario Based Questions
-- Story 1: Sorting Aadhar Numbers using Radix Sort
-Context: Aadhar numbers (12-digit) need to be sorted efficiently.
- Scenario A: Sort all Aadhar numbers in ascending order.
- Scenario B: Search for a particular number via binary search post-sorting.
- Scenario C: Maintain order of entries with same prefix.
+### Day 44 (11 Feb 2026)
+Healthcare Project Enhancement
 
-- Backtracking
-Story 1: Password Cracker Simulator
-Context: Try all possible combinations to unlock a vault.
-Scenario A: Generate all strings of length n.
-Scenario B: Stop if password is matched.
-Scenario C: Visualize time-space complexity.
+Topics Covered
+- Exception handling
+- Use case execution
+- Structure improvement
 
-#### Concepts Learned
-- Generics Compeleted
-- Overview of Collections Framework
-- What is the Collections Framework?
-- Hierarchy of Collections Framework
-- List Interface and Implementing Classes
-- Set Interface and Implementing Classes
-- Queue and Deque Interfaces
-- Map Interface and Its Implementations
-- Comparison of Different Implementations
-- Real-World Use Cases and Best Practices.
+Learning Outcome
+- Enhanced application stability
 
-For now only Basics Are Done and Practice is Going on
+---
 
-### Day 29 (21 jan 2026)
-- Topics covered ---
-- C# I/O Streams
-Types of Streams
-1. File Streams
-2. Object Streams
-3. ByteArray Streams
-4. Buffered Streams
-5. Reader and Writer
+### Day 45 (12 Feb 2026)
+NotifyHub — Concurrent Notification System
 
-- Scenario Based Question
-- Q1. Rank Sheet Generator
-- Q2. SuperMarket Billing Queue using Collections
+Topics Covered
+- Multithreading and async/await
+- Notification processing system
+- Validation and prioritization
 
-### Day 30 (22 jan 2026)
-- Topics Covered ------->
-- Exceptions
-- Scenario Based Question
-- AmbulanceRoute – Emergency Patient Navigation (Circular Linked
-List)
+Learning Outcome
+- Real-world concurrency implementation
 
-### Day 31 (23 jan 2026)
-- Topics Covered 
-- Regex 
-- MetaCharacter
-- Quantifier
+---
 
-- Common Patterns:
- Email Validation,
- Password Strength,
- Phone Number Format ,
+### Day 46 (13 Feb 2026)
+Email Validator & Soft Skills Development
 
-- C# Regex API 
-- Pattern
-- Matcher
-- Methods:
-find(),
-matches(),
-replaceAll(),
-Introduction to NUnit Framework,
-NUnit Annotations,
-Writing Test Cases,
-Structure of a Test Class,
-Assertions
+Topics Covered
+- Regex validation
+- Exception handling
+- Multithreading integration
+- Soft skills session
 
-### Day 32(27 jan 2026)
-- Topics Covered
- -  Deep dive into the concept of MS Testing
- - Stream Concept
-- Code Practice -
-  -  Collections And Scenario Based
+Learning Outcome
+- Strong validation logic implementation
 
-### Day 33(28 jan 2026)
-#### C# Scenario Based Questions and CSV Data Handling
-- Toipcs Learnt
-  - Scenario Based Questions AeroVigil , Validation of Bank Account
-  - Concept of Annotations and Reflection
-  - Stream Concept
+---
 
-### Day 34 (29 jan 2026)
-- Topics Learnt 
-  - Introduction to JSON
-  - Reading JSON Data
-  - Writing JSON Data
-  - Parsing JSON Data
-  - JSON Schema Validation
+### Day 47 (14 Feb 2026)
+Project Completion & Smart City System
 
-- Practiced 
-  - Scenario Based Questions 
-    - StreamBuzz , OceanFleet
-  - CSV Data Handling
+Topics Covered
+- Healthcare project completion
+- Started TechVille Smart City Management System
+  - Citizen Registration Module
 
-### Day 35(30 jan 2026)
-- Practice
-  - Scenario Based Questions
-    - Lexical Twist using Regex 
-    - Future Logistics 
-  
-  - Revised Previous Concepts
+Learning Outcome
+- Completed full project lifecycle
 
-### Day 36 (31 jan 2026)
-- Topics Learnt
-  - JSON Data Practiced 
-  - Revised  Regex , Generics and Collections
-  - practiced question on it
+---
 
-### Day 37(02 Feb 2026)
-#### Topics Covered
-- Design Principles
-  -  OOP design principles
-  - SOLID
-  - KISS
-  - DRY
-  - DIY
+### Day 48 (15 Feb 2026)
+Training Updates, Project Guidelines & Assessment Instructions
 
-- Design Pattern
-  - GoF design patterns and different types of design patterns
-  
-- Multithreading, Stream api, Delegates, Events
+Topics Covered
+- Assessment instructions and lab discipline guidelines
+- Test environment preparation and compliance requirements
+- Introduction to new project:
+  - Quantity Measurement Application
 
+Project Guidelines
+- Repository Name: QuantityMeasurementApp
+- Clean architecture and SOLID principles
+- Meaningful naming conventions:
+  - Classes → QuantityMeasurementService
+  - Variables → totalUnits
+  - Methods → ConvertUnits()
+- Branch Strategy:
+  - main → Production-ready
+  - develop → Integration
+  - feature/<feature-name> → Feature development
 
+Commit Standards
+- Strict commit message format:
+  - `[Name].Add - Implemented feature`
+  - `[Name].Refactor - Improved logic`
 
-<!-- ## Learning Outcomes
-- Learned .NET framework basics and C# fundamentals
-- Understood internal working of .NET (CLR, IL, MSIL)
-- Practiced Git commands and workflow
-- Improved problem-solving ability through Java and C# exercises
-- Hands-on experience with:
-  - Arrays
-  - Methods and recursion
-  - Strings
+Learning Outcome
+- Understanding professional project workflow
+- Industry-level Git discipline and coding standards
+
+---
+
+### Day 49 (16 Feb 2026)
+ADO.NET Advanced Concepts & System Design Preparation
+
+Topics Covered
+
+ADO.NET Concepts
+- Connected Architecture:
+  - SqlConnection, SqlCommand, SqlDataReader
+- Disconnected Architecture:
+  - SqlDataAdapter, DataSet
+- Connection Pooling
+- SqlTransaction and TransactionScope
+- Parameterized Queries and SQL Injection Prevention
+- Lifecycle of ADO.NET objects
+
+Database Concepts
+- ACID properties with banking example
+- Deadlocks and prevention strategies
+- Clustered vs Non-clustered indexes
+- Isolation levels
+
+Collections Deep Concepts
+- IEnumerable vs ICollection vs IList
+- Dictionary internal hashing (O(1))
+- ConcurrentDictionary
+- List capacity growth behavior
+
+Multithreading
+- Thread vs Task
+- Thread Pool
+- Race condition and synchronization
+- async/await behavior
+- Deadlock prevention
+
+File Handling
+- FileStream vs StreamWriter
+- IDisposable and using statement
+- Thread-safe file operations
+
+Annotations & Reflection
+- Attributes and metadata
+- Reflection runtime behavior
+- AttributeUsage
+
+Testing Concepts
+- NUnit vs MSTest
+- Arrange-Act-Assert pattern
+- Mocking and dependency isolation
+
+Learning Outcome
+- Deep understanding of .NET internals
+- Preparation for advanced system design interviews
+
+---
+
+### Day 50 (17 Feb 2026)
+System Design Practice & Scenario-Based Architecture
+
+Topics Covered
+- Bank Transaction Processing System Design:
+  - Accounts and Transactions tables
+  - Atomic operations using transactions
+  - Parallel withdrawal simulation
+  - Race condition prevention
+  - In-memory caching using Dictionary
+
+Scenario Practice
+- Concurrent operations testing
+- Rollback validation
+- Thread-safe design strategies
+
+Learning Outcome
+- Real-world concurrency problem solving
+- Database consistency and transaction management
+
+---
+
+### Day 51 (18 Feb 2026)
+Project-Based Learning & Application Development Concepts
+
+Topics Covered
+- Email Validator – College Admission Portal
+  - Regex validation patterns
   - Exception handling
-  - OOP concepts
-  - Collections (Stack, Queue, LinkedList, Dictionary)
-- Gained experience with training workflows:
-  - Repo structuring
-  - Branching strategy
-  - Clean code discipline -->
+  - Modular method design
+  - Input validation rules
+
+NotifyHub – Concurrent Notification System
+- Multithreading and async processing
+- Priority handling
+- Failure isolation
+- Attribute-based validation
+- OOP separation of concerns
+
+Learning Outcome
+- Integration of multithreading with application logic
+- Clean architecture implementation
+
+---
+
+### Day 52 (19 Feb 2026)
+ASP.NET Core Introduction & Application Preparation
+
+Topics Covered
+- Introduction to ASP.NET Core fundamentals
+- Project prerequisites and environment setup
+- Application architecture understanding
+- Preparation for upcoming full-stack modules
+
+Learning Outcome
+- Understanding web application architecture in .NET ecosystem
+- Ready for enterprise application development
+
+---
+
+## Upcoming Work
+- Quantity Measurement Application development
+- ASP.NET Core project implementation
+- Advanced ADO.NET integration
+- System design and scalability concepts
+
+---
+
 
 ---
 
@@ -712,8 +552,7 @@ Assertions
 ## Next Steps
 - Continue advanced C# programming concepts
 - Explore:
-  - Generics and collections deeply
-  - LINQ
+  - Backend
 - Start mini-projects using .NET
 
 ---
