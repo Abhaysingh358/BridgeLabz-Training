@@ -531,6 +531,20 @@ Learning Outcome
 - Ready for enterprise application development
 
 ---
+### Day 53 (21 Feb 2026)
+- Practice ADO.NET 
+- Learn Basics of Entity Framework , ORM
+- Learn Basics of Web Api
+
+### Day 54 (22 Feb 2026)
+- Worked on Quantity MeasurementApp
+- UC1 to UC3
+
+### Day 55 (23 Feb 2026)
+- Worked On Quantity Measurement App
+- UC4 to UC6
+
+
 
 ## Upcoming Work
 - Quantity Measurement Application development
