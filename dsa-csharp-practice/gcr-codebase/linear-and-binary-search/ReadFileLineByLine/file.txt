@@ -1,0 +1,2 @@
+hello , this is text file.
+it is created to test or use StreamReader

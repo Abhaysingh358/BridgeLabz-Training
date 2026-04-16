@@ -1,5 +1,8 @@
 # BridgeLabz-Training
 
+<<<<<<< dsa-csharp-practice
+
+=======
 ## Description
 This repository is part of the training program provided by BridgeLabz.  
 During this training, I am working on multiple technologies to strengthen my fundamentals, understand real-world development workflows, and improve problem-solving skills through hands-on practice.
@@ -579,3 +582,4 @@ More sessions, assignments, and improvements will be added as the training progr
 
 ## Author
 Abhay Pratap Singh
+>>>>>>> main
