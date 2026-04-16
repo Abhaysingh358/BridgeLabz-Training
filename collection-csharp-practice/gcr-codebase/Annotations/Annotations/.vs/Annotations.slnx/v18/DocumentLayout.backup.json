@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\advanced\\cacheresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:advanced\\cacheresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\advanced\\jsonfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:advanced\\jsonfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\advanced\\roleallowed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:advanced\\roleallowed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\intermediate\\maxlength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:intermediate\\maxlength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\intermediate\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:intermediate\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\beginner\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:beginner\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\beginner\\importantmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:beginner\\importantmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\suppresswarnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:suppresswarnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\oldfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:oldfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\legacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:legacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\annotations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA317B9-2CE4-4730-B19B-C627ED0FA925}|Annotations.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacheResult.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Advanced\\CacheResult.cs",
+              "RelativeDocumentMoniker": "Advanced\\CacheResult.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Advanced\\CacheResult.cs",
+              "RelativeToolTip": "Advanced\\CacheResult.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:05:04.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JsonField.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Advanced\\JsonField.cs",
+              "RelativeDocumentMoniker": "Advanced\\JsonField.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Advanced\\JsonField.cs",
+              "RelativeToolTip": "Advanced\\JsonField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:04:06.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleAllowed.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Advanced\\RoleAllowed.cs",
+              "RelativeDocumentMoniker": "Advanced\\RoleAllowed.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Advanced\\RoleAllowed.cs",
+              "RelativeToolTip": "Advanced\\RoleAllowed.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:03:05.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaxLength.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Intermediate\\MaxLength.cs",
+              "RelativeDocumentMoniker": "Intermediate\\MaxLength.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Intermediate\\MaxLength.cs",
+              "RelativeToolTip": "Intermediate\\MaxLength.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:01:21.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logging.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Intermediate\\Logging.cs",
+              "RelativeDocumentMoniker": "Intermediate\\Logging.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Intermediate\\Logging.cs",
+              "RelativeToolTip": "Intermediate\\Logging.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:59:58.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Beginner\\ToDo.cs",
+              "RelativeDocumentMoniker": "Beginner\\ToDo.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Beginner\\ToDo.cs",
+              "RelativeToolTip": "Beginner\\ToDo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:57:02.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImportantMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Beginner\\ImportantMethod.cs",
+              "RelativeDocumentMoniker": "Beginner\\ImportantMethod.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Beginner\\ImportantMethod.cs",
+              "RelativeToolTip": "Beginner\\ImportantMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:55:26.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Issue.cs",
+              "RelativeDocumentMoniker": "Issue.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Issue.cs",
+              "RelativeToolTip": "Issue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:52:07.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Task.cs",
+              "RelativeDocumentMoniker": "Task.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Task.cs",
+              "RelativeToolTip": "Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:50:15.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SuppressWarnings.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\SuppressWarnings.cs",
+              "RelativeDocumentMoniker": "SuppressWarnings.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\SuppressWarnings.cs",
+              "RelativeToolTip": "SuppressWarnings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:48:56.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OldFeatures.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\OldFeatures.cs",
+              "RelativeDocumentMoniker": "OldFeatures.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\OldFeatures.cs",
+              "RelativeToolTip": "OldFeatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:46:56.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Legacy.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Legacy.cs",
+              "RelativeDocumentMoniker": "Legacy.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Legacy.cs",
+              "RelativeToolTip": "Legacy.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:44:59.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\Annotations\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:43:16.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
