@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Siddharth\\Desktop\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj": {}
+    "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day5\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Siddharth\\Desktop\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj": {
+    "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day5\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Siddharth\\Desktop\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj",
+        "projectUniqueName": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day5\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj",
         "projectName": "HealthClinic",
-        "projectPath": "C:\\Users\\Siddharth\\Desktop\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj",
+        "projectPath": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day5\\HealthClinicApi\\HealthClinic\\HealthClinic.csproj",
         "packagesPath": "C:\\Users\\Siddharth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Siddharth\\Desktop\\HealthClinicApi\\HealthClinic\\obj\\",
+        "outputPath": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day5\\HealthClinicApi\\HealthClinic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

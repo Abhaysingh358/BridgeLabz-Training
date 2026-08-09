@@ -33,6 +33,13 @@ This repository is part of the training program provided by BridgeLabz. During t
   - Content: Connecting .NET application to MS SQL Server using ADO.NET, CRUD operations.
   - Practice: Finalize console-based Health Clinic App (Implemented CRUD Operation on All Table(Doctor , Patient , Appointment)).
 
+- **Day 5: ASP.NET Core , WebAPI and RESTful services**
+  - Content : Introducion to ASP.NET CORE , ASP.NET WebAPI and RESTful Services - Principles and Design.
+  - Practice : Scaffhold a basic ASP.NET Core WebAPI project.
+
+- **Day 6: MVC Pattern and REST Request Handlin**
+  - Content: MVC Patterns , HTTP Protocols , Routing , Controller ,C# REST API calls
+  - Practice: Build a Simple Greeting App using APS.NET CORE MVC/WebAPI
 ---
 
 ## Branching Strategy
