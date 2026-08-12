@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "uhiT5nZgvmI1Bm51zI1HIjTiFLRk7djwtHB5VBvTxbrJcxz+rzfFy4WlnLLUlJyk5d1zF3hlsYvz40Err89EGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Siddharth\\Desktop\\ContactAppH2Database\\ContactAppH2Database.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Siddharth\\.nuget\\packages\\h2.net50\\1.4.199.3\\h2.net50.1.4.199.3.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\h2sharpado.net50\\1.2.0\\h2sharpado.net50.1.2.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Siddharth\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
