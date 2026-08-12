@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ContactApp.API/ContactApp.API.csproj" />
+  <Project Path="ContactApp.Business/ContactApp.Business.csproj" />
+  <Project Path="ContactApp.Models/ContactApp.Models.csproj" />
+  <Project Path="ContactApp.Repository/ContactApp.Repository.csproj" />
+</Solution>
