@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Siddharth\\Desktop\\ContactApp\\ContactApp.csproj",
+      "projectUniqueName": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day7\\ContactApp\\ContactApp.csproj",
       "projectName": "ContactApp",
-      "projectPath": "C:\\Users\\Siddharth\\Desktop\\ContactApp\\ContactApp.csproj",
+      "projectPath": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day7\\ContactApp\\ContactApp.csproj",
       "packagesPath": "C:\\Users\\Siddharth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Siddharth\\Desktop\\ContactApp\\obj\\",
+      "outputPath": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day7\\ContactApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

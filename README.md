@@ -40,6 +40,31 @@ This repository is part of the training program provided by BridgeLabz. During t
 - **Day 6: MVC Pattern and REST Request Handlin**
   - Content: MVC Patterns , HTTP Protocols , Routing , Controller ,C# REST API calls
   - Practice: Build a Simple Greeting App using APS.NET CORE MVC/WebAPI
+
+- **Day 7: Minimal APIs**
+  - Content: Minimal APIs in ASP.NET Core - lightweight endpoint definitions.
+  - Practice: Start developing the Contacts App backend using Minimal APIs.
+
+- **Day 8: H2 Database, Distributed Architectures & SDLC Exposure**
+  - Content: H2 Database and the ADO.NET wrapper (H2Sharp), Distributed Architectures overview and motivation, RestAssured.Net for API testing, SDLC exposure.
+  - Practice: Continue Contacts App backend (apply concepts introduced daily in live class), test Contacts App endpoints using RestAssured.Net.
+
+- **Day 9: ORM & Entity Framework Fundamentals**
+  - Content: ORM concepts, Entity Framework introduction, WebAPI-powered REST API with EF, Dependency Injection in ASP.NET Core.
+  - Practice: Bootstrap Entity Framework in a new WebAPI project, continue building the Contacts App backend with EF.
+
+- **Day 10: H2 Database, C# REST API & LINQ to Entities**
+  - Content: H2 Database integration with Entity Framework, C# REST API patterns with EF, LINQ to Entities - querying via LINQ.
+  - Practice: Wire H2 Database into the Employee Payroll App / Address Book App backend.
+
+- **Day 11: Migrations & DbContext**
+  - Content: EF Migrations - schema evolution workflow, DbContext - configuration and lifecycle.
+  - Practice: Complete Employee Payroll App & Address Book App backends using EF Migrations/DbContext.
+
+- **Day 12: WebAPI REST Verbs, HttpClient & Action Methods**
+  - Content: WebAPI REST verbs - GET / POST / PUT / PATCH / DELETE, HttpClient for consuming external APIs, Action Methods in ASP.NET Core Controllers.
+  - Practice: Fundoo Notes App - User Management Module: user login, registration, password recovery.
+
 ---
 
 ## Branching Strategy

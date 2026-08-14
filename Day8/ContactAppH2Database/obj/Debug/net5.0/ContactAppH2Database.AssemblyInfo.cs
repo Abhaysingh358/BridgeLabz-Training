@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactAppH2Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cd9784f427cfc87160813fd7b09df5d98241208")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactAppH2Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactAppH2Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

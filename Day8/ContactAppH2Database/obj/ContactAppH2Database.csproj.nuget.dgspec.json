@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Siddharth\\Desktop\\ContactAppH2Database\\ContactAppH2Database.csproj": {}
+    "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day8\\ContactAppH2Database\\ContactAppH2Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Siddharth\\Desktop\\ContactAppH2Database\\ContactAppH2Database.csproj": {
+    "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day8\\ContactAppH2Database\\ContactAppH2Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Siddharth\\Desktop\\ContactAppH2Database\\ContactAppH2Database.csproj",
+        "projectUniqueName": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day8\\ContactAppH2Database\\ContactAppH2Database.csproj",
         "projectName": "ContactAppH2Database",
-        "projectPath": "C:\\Users\\Siddharth\\Desktop\\ContactAppH2Database\\ContactAppH2Database.csproj",
+        "projectPath": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day8\\ContactAppH2Database\\ContactAppH2Database.csproj",
         "packagesPath": "C:\\Users\\Siddharth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Siddharth\\Desktop\\ContactAppH2Database\\obj\\",
+        "outputPath": "C:\\Users\\Siddharth\\Documents\\BridgeLabz-Training\\Day8\\ContactAppH2Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -56,7 +62,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
