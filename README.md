@@ -61,9 +61,7 @@ This repository is part of the training program provided by BridgeLabz. During t
   - Content: EF Migrations - schema evolution workflow, DbContext - configuration and lifecycle.
   - Practice: Complete Employee Payroll App & Address Book App backends using EF Migrations/DbContext.
 
-- **Day 12: WebAPI REST Verbs, HttpClient & Action Methods**
-  - Content: WebAPI REST verbs - GET / POST / PUT / PATCH / DELETE, HttpClient for consuming external APIs, Action Methods in ASP.NET Core Controllers.
-  - Practice: Fundoo Notes App - User Management Module: user login, registration, password recovery.
+
 
 ---
 
