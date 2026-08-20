@@ -64,6 +64,19 @@ This repository is part of the training program provided by BridgeLabz. During t
 - **Day 12: WebAPI REST Verbs, HttpClient & Action Methods in .Net**
   - Content: HttpCLient -  Methods (Get , Post , Put , Patch , Delete) ,  Verbs of Rest Api
   -Practice: Completed Authentication in FundooNotesApp using JWT Bearer Token and Used ORM(EF Core).
+  
+- **Day 13: Dependency Injection, Routing, Reverse Proxy & CORS**
+  - Content: Dependency Injection deep-dive, Routing configuration, Reverse Proxy concepts, CORS (Cross-Origin Resource Sharing).
+  - Practice: Fundoo Notes App - Authentication & Authorization Module (groundwork).
+
+- **Day 14: JWT, AuthN vs AuthZ, OAuth**
+  - Content: Request/Response - SMD Format, JWT (JSON Web Token) based authentication, OAuth, Single Sign-On (SSO).
+  - Practice: Fundoo Notes App - complete Authentication & Authorization Module, Notes Management Module: create and delete notes.
+
+- **Day 15: Entity Framework, CQRS & LINQ (deep-dive)**
+  - Content: ORM: Entity Framework advanced patterns, LINQ - advanced querying.
+  - Practice: Fundoo Notes App - Archive / Trash Module.
+
 
 
 
